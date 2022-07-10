@@ -1,0 +1,37 @@
+@startuml SDK_Fix_Checkin_ContextView
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+LAYOUT_LEFT_RIGHT()
+LAYOUT_AS_SKETCH()
+
+Title SDK Fix Check-in Context View
+
+' Users and roles
+Person(user_dev_sdk, "SDK Developers", "Developers who are devloping the main SDK")
+Person(user_dev_feature, "Feature Developers", "Developers who is using the main SDK")
+
+' Project/Code/CI/CD
+System_Boundary(bnd_code, "Project Management System"){
+  System_Ext(sys_codemanagement, "Code Management [Bitbucket]", "Allows to manage the source code")
+  System_Ext(sys_projectmanagement, "Project Management [Jira]", "Allows to manage the projects")
+}
+
+' Cloud Services
+System(sys_notificationservice, "Notifications Service [Software System]", "Allows the features developers to be notfied about the dependent SDK changes")
+
+' Relations
+' users
+Rel(user_dev_sdk, sys_codemanagement, "Pull/Push the source code by using")
+Rel(user_dev_sdk, sys_codemanagement, "Creates PR to review and merge SDK changes using")
+
+' Cloud Services
+Rel(sys_codemanagement, user_dev_feature, "Send the SDK changed notification to")
+Rel(sys_projectmanagement, user_dev_feature, "Send the project changed Jira issue to")
+
+Rel(sys_notificationservice, sys_codemanagement, "Subscribes the SDK changed events by using")
+Rel(sys_notificationservice, sys_codemanagement, "Inform the feature developers about the changes by using")
+
+Rel(sys_notificationservice, sys_projectmanagement, "Create an issue on the")
+
+
+@enduml

@@ -1,0 +1,1638 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="13.40" multi-file="no" uid="simp89ad15ce9b5041478a51836188ccb0cb">
+  <meta>
+    <name>ClassesDiagram</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="3">
+    <entity-names>
+      <counter>
+        <item-type type-id="drawing-shape" type="Simple Shape" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="frame" type="Frame" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="element-detail" type="Element Detail" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>968</value>
+      </counter>
+      <counter>
+        <item-type type-id="drawing-shape" type="Simple Shape" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="frame" type="Frame" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>25</value>
+      </counter>
+      <counter>
+        <item-type type-id="element-detail" type="Element Detail" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment-connector" type="Comment Connector" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="conditional-node" type="Conditional Node" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>10</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment" type="Comment" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>10</value>
+      </counter>
+      <counter>
+        <item-type type-id="usage" type="Usage" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlPackageDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Other.EntityRelationshipDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>2</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-9fe71f50117a4f5bb3986f5f0d8ed9bf" name="" task-id-sequence="0">
+    <working-schedule uid="ws-6c23cdc713e944f3819523761a3fab14" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-3f3b617ff3c74025876bedeccb07e4c2" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-ef4801ed64744bd9af072474f7788b64" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+      <type-set file="UmlTypes.xml" />
+      <type-set file="UmlTypes.xml" />
+      <type-set file="UmlTypes.xml" />
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <type id="ILogger&lt;BitBucketController&gt;" tid="" name="ILogger&lt;BitBucketController&gt;" description="" />
+      <type id="ValueTask&lt;object?&gt;" tid="" name="ValueTask&lt;object?&gt;" description="" />
+      <type id="object" tid="" name="object" description="" />
+      <type id="ICollection&lt;Notification&gt;" tid="" name="ICollection&lt;Notification&gt;" description="" />
+      <type id="Class:634cad7216994f06b5790fad639af79a" tid="" name="PostIssueCommand" description="" class-ref="634cad7216994f06b5790fad639af79a" />
+      <type id="ICollection&lt;string&gt;" tid="" name="ICollection&lt;string&gt;" description="" />
+      <type id="Class:12215ce8e0cf41789e64ca7f8a5cde1f" tid="" name="GetPullRequestCommand" description="" class-ref="12215ce8e0cf41789e64ca7f8a5cde1f" />
+      <type id="Class:b06ce997394d4da797df074459da3ef6" tid="" name="GetRelatedRepositoriesCommand" description="" class-ref="b06ce997394d4da797df074459da3ef6" />
+      <type id="ICheckIn" tid="" name="ICheckIn" description="" />
+      <type id="string" tid="" name="string" description="" />
+      <type id="GetCheckinInformationCommand" tid="" name="GetCheckinInformationCommand" description="" />
+      <type id="Class:f8db724ac572489b93d43b3000b8df4b" tid="" name="INotifyUsers" description="" class-ref="f8db724ac572489b93d43b3000b8df4b" />
+      <type id="Task&lt;IActionResult&gt;" tid="" name="Task&lt;IActionResult&gt;" description="" />
+      <type id="IMediator" tid="" name="IMediator" description="" />
+      <type id="IJiraIssuesManagement" tid="" name="IJiraIssuesManagement" description="" />
+    </custom-types>
+  </types>
+  <items>
+    <item id="3db04056c80d4570beb83ac4585639ea" cid="GROUP215" type="group" name="Group" style-class="" creator="" creation-date="07/10/2022 16:00:58" />
+    <item id="di7b7603b406fe4bbfb634907752dbf8d62259" cid="NotificationAPI_1" type="conditional-node" name="NotificationAPI" style-class="" change-tracking-state="added" creator="" creation-date="07/10/2022 15:50:26" visibility="undefined">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+        <text-style type="name" use-defaults="false" color="#FF555555" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="text" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+        <text-style type="tagged-value" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="stereotype" use-defaults="false" color="#FF555555" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <background type="horizontal-linear" colors="#FFFFFFFF,#FFFFFFFF" />
+        <border color="#FF555555" width="2" dash-style="Solid" />
+        <label-connector color="#80000000" width="1" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+            <text-style type="name" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <text-style type="text" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+            <text-style type="tagged-value" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <text-style type="stereotype" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <background type="solid" colors="#FF203D85,#FF203D85" />
+            <border color="#FF203D85" width="2" dash-style="Solid" />
+            <label-connector color="#80000000" width="1" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <action locally-reentrant="false" />
+      <structured-activity-node />
+      <conditional-node assured="false" determinate="false" />
+    </item>
+    <item id="53eb585077a1409594f4f961fd0cf052" cid="GROUP256" type="group" name="Group" style-class="" creator="" creation-date="07/10/2022 16:02:59" />
+    <item id="d1695a181b584a6192cd94328abb225a" cid="PROP016" type="property" name="notfNotifyUsers" style-class="" creation-date="07/10/2022 16:50:38" visibility="private">
+      <feature />
+      <structural-feature type="" type-id="" />
+      <property />
+    </item>
+    <item id="f8db724ac572489b93d43b3000b8df4b" cid="I003" type="uml-interface-classifier" name="INotifyUsers" style-class="Flat Light Cyan" creation-date="07/10/2022 15:35:05" visibility="public">
+      <stereotypes>
+        <stereotype name="interface" />
+      </stereotypes>
+      <tagged-values>
+        <tagged-value id="tvd8c7043dde1e4e7ab4410dd922680ffd" name="namespace" type="text" multiple="false" hidden="false" value="" />
+        <tagged-value id="tvf996a75fd6f54fc285cb910faf9adc32" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="INotifyUsers" />
+        <tagged-value id="tv30cef71215334243897a9f5b4454f780" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p9c9f1b6efbae47e39bce437369aefe65_446132824" />
+        <tagged-value id="tv6fdf25c61c1f49859d38653c6b58115c" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\Bassam.Alugili\OneDrive - Körber AG\Desktop\COS\NotificationService\src\Application\UseCases\Bitbucket\INotifyUsers.cs" />
+        <tagged-value id="tv67608db2f30e497d9dc5cffe66963970" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+        <tagged-value id="tve2140197f1654da5a533003746f7da92" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="124" />
+        <tagged-value id="tv3ae69f7e2a8e49d189624cee9fa7254a" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="115" />
+        <tagged-value id="tv49a97c62be164a90a3dad83ff196c81d" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="242" />
+        <tagged-value id="tvb17558acefea44e190012ea224a5a469" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="07/10/2022 09:26:51" />
+      </tagged-values>
+      <stereotype-instances>
+        <stereotype id="f8db724ac572489b93d43b3000b8df4b_interface_c" type="interface" ref="" />
+      </stereotype-instances>
+      <style class="Flat Light Cyan" />
+      <operations>
+        <operation id="oc1958f3719544ee5856db4faeeb8d52a46" cid="OP010" name="NotifyBitBucketUsers" creation-date="07/10/2022 15:35:05" type="" type-id="" visibility="public">
+          <parameters>
+            <parameter id="p748344ca70fc40e7bd12e2dad6ed55bd" name="notifications" type="ICollection&lt;Notification&gt;" type-id="ICollection&lt;Notification&gt;" />
+          </parameters>
+          <tagged-values>
+            <tagged-value id="tva6845fc80ab04818b82f6c460d531b13" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="NotifyBitBucketUsers" />
+            <tagged-value id="tvc878fc96c97f4ebc84b7733e9a410f7a" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\Bassam.Alugili\OneDrive - Körber AG\Desktop\COS\NotificationService\src\Application\UseCases\Bitbucket\INotifyUsers.cs" />
+            <tagged-value id="tva1a32ecacce64ad5bdbd753a426122ab" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+            <tagged-value id="tv0308ad4c6e7f4ed090b49571a625383f" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="162" />
+            <tagged-value id="tvf1a92bd8e0a844779721901de9e5ca01" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="74" />
+          </tagged-values>
+        </operation>
+      </operations>
+    </item>
+    <item id="85d21e8c4ac646baaf4a2e134e81b000" cid="PROP014" type="property" name="_logger" style-class="" creation-date="07/10/2022 16:50:38" visibility="private">
+      <feature />
+      <structural-feature type="" type-id="" />
+      <property />
+    </item>
+    <item id="12215ce8e0cf41789e64ca7f8a5cde1f" cid="C002" type="class" name="GetPullRequestCommand" style-class="Flat Light Green" creation-date="07/10/2022 15:35:05" visibility="public">
+      <tagged-values>
+        <tagged-value id="tv5356e3543a5e48548b7467ac34e076a1" name="namespace" type="text" multiple="false" hidden="false" value="" />
+        <tagged-value id="tv40cda54014e34672855e312d97d7c3d2" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetPullRequestCommand" />
+        <tagged-value id="tv66dfa0473101407e8951dadda8f42752" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p9c9f1b6efbae47e39bce437369aefe65_446132824" />
+        <tagged-value id="tv90ae06b892104d458d34e6b88b0933f4" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\Bassam.Alugili\OneDrive - Körber AG\Desktop\COS\NotificationService\src\NotificationAPI\Commands\Bitbucket\GetPullRequestCommand.cs" />
+        <tagged-value id="tvfb712d6e8f424a35a0f0e20d8c10963c" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+        <tagged-value id="tvcb1deb08870d4140ae06be01c944ece6" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="80" />
+        <tagged-value id="tv511d07b2f7db4ccbb842a9f08b6a780f" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="40" />
+        <tagged-value id="tvf2c1750cbab14ad8b94d0fce9f744d8e" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="120" />
+        <tagged-value id="tv6f2e6c9ebf5845e381bbf3f24a9b5fd7" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="07/10/2022 09:55:23" />
+      </tagged-values>
+      <style class="Flat Light Green" />
+    </item>
+    <item id="dd941e0a539d43ff9575105f7d6fd3d8" cid="PROP015" type="property" name="checkin" style-class="" creation-date="07/10/2022 16:50:38" visibility="private">
+      <feature />
+      <structural-feature type="" type-id="" />
+      <property />
+    </item>
+    <item id="b53088a30b094b848b2e48de4f189a0b" cid="PROP023" type="property" name="Created" style-class="" creation-date="07/10/2022 16:50:38" visibility="private">
+      <feature />
+      <structural-feature type="" type-id="" />
+      <property />
+    </item>
+    <item id="634cad7216994f06b5790fad639af79a" cid="C004" type="uml-interface-classifier" name="PostIssueCommand" style-class="Flat Light Green" creation-date="07/10/2022 15:35:05" visibility="public">
+      <tagged-values>
+        <tagged-value id="tv47fe9fc0abbe4aed806e51bd29225c8f" name="namespace" type="text" multiple="false" hidden="false" value="" />
+        <tagged-value id="tv57c644f40f9840f4a96deb26719df1b1" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="PostIssueCommand" />
+        <tagged-value id="tv7053db7c9f194658b7bb9c3149f51c9a" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p9c9f1b6efbae47e39bce437369aefe65_446132824" />
+        <tagged-value id="tv217ff41e26f64272a91013b34a7956a3" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\Bassam.Alugili\OneDrive - Körber AG\Desktop\COS\NotificationService\src\NotificationAPI\Commands\Jira\PostIssueCommand.cs" />
+        <tagged-value id="tvb897e3a49d5045b79847d1811bfd9930" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+        <tagged-value id="tv3c2830eaadce48abb494d59f2ad39cf9" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="75" />
+        <tagged-value id="tv49a0cd7a00b94a80a33387c1e3aa1685" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="35" />
+        <tagged-value id="tvfac832dfec4041b7aee23e1cb30045b5" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="113" />
+        <tagged-value id="tv94cf2f0cdc374d75bf809c9f71d18248" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="07/10/2022 09:59:07" />
+      </tagged-values>
+      <style class="Flat Light Green" />
+    </item>
+    <item id="aa1942793bfe493bbd0b13bdae90bf21" cid="DEP004" type="dependency" name="" style-class="" creation-date="07/10/2022 15:35:05" from="7e5ff2bac2ca4b6fae7dd83980b2f51b" to="634cad7216994f06b5790fad639af79a" visibility="package">
+      <tagged-values>
+        <tagged-value id="tv70c86e301a6d4f2098d9d8b8794ea207" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+      </tagged-values>
+    </item>
+    <item id="b06ce997394d4da797df074459da3ef6" cid="C001" type="class" name="GetRelatedRepositoriesCommand" style-class="Flat Light Green" creation-date="07/10/2022 15:35:05" visibility="public">
+      <tagged-values>
+        <tagged-value id="tvb1d75295a2a4449aaf25f2187f64d85c" name="namespace" type="text" multiple="false" hidden="false" value="" />
+        <tagged-value id="tvdfd264ac1deb41eb976587feef13d472" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetRelatedRepositoriesCommand" />
+        <tagged-value id="tv48fb4feee609434382d8449e571b42b5" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p9c9f1b6efbae47e39bce437369aefe65_446132824" />
+        <tagged-value id="tv804920f8aa784f3582baf8d031620e76" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\Bassam.Alugili\OneDrive - Körber AG\Desktop\COS\NotificationService\src\NotificationAPI\Commands\Bitbucket\GetRelatedRepositoriesCommand.cs" />
+        <tagged-value id="tv5c73497536ce45c3b9d336e29a8a30af" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+        <tagged-value id="tv4c6f708910ce4d7ba4dc863453f23fbd" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="80" />
+        <tagged-value id="tv086a66e25fb948a1ac00437d468f19b7" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="48" />
+        <tagged-value id="tv3ad8a72c802047cca060e7be13c36903" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="128" />
+        <tagged-value id="tv5b05f1afa59b4e8a8bb12c5a83b1350d" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="07/10/2022 09:55:28" />
+      </tagged-values>
+      <style class="Flat Light Green" />
+    </item>
+    <item id="6ee3dc5af708499194e5786e3aba0b4c" cid="PROP019" type="property" name="PullRequest" style-class="" creation-date="07/10/2022 16:50:38" visibility="private">
+      <feature />
+      <structural-feature type="" type-id="" />
+      <property />
+    </item>
+    <item id="ce887f78e66e4e9a8c8531b87280cf6b" cid="PROP020" type="property" name="FixInformation" style-class="" creation-date="07/10/2022 16:50:38" visibility="private">
+      <feature />
+      <structural-feature type="" type-id="" />
+      <property />
+    </item>
+    <item id="19aa553617674d5492fcaba92878c1c9" cid="C003" type="class" name="BitBucketController" style-class="Flat Light Green" creation-date="07/10/2022 15:35:05" visibility="public">
+      <tagged-values>
+        <tagged-value id="tv2264bcb17a804b27a3b81d3e1c03ebcd" name="namespace" type="text" multiple="false" hidden="false" value="" />
+        <tagged-value id="tv964effc9241a48f4b66e4166fc606299" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="BitBucketController" />
+        <tagged-value id="tv199b4f66c0824a9a90022deef1a50050" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p9c9f1b6efbae47e39bce437369aefe65_446132824" />
+        <tagged-value id="tv379e62d71e424c8f936a533eb86ad760" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\Bassam.Alugili\OneDrive - Körber AG\Desktop\COS\NotificationService\src\NotificationAPI\Controllers\BitBucketController.cs" />
+        <tagged-value id="tv7a8a091121d34b9580878efcbaf92252" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+        <tagged-value id="tva638f19a9b344856a6fdb146a2bb7847" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="294" />
+        <tagged-value id="tva1bf314db819430abde34ac22f95aa6a" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="1115" />
+        <tagged-value id="tvfb8dfdd0d8c54f62ae0f08b673c5d02e" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="1409" />
+        <tagged-value id="tv35415d22da0147edb367fb4fc9846b7d" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="07/10/2022 09:55:39" />
+      </tagged-values>
+      <owned-items>
+        <owned-item ref="c7b40dc9c20046cba2f07e891ec4b9eb" />
+      </owned-items>
+      <style class="Flat Light Green" />
+      <attributes>
+        <attribute id="ae3d189a1c18c47529842f1c9166e443431" cid="PROP014" name="_logger" creation-date="07/10/2022 15:35:05" property-ref="85d21e8c4ac646baaf4a2e134e81b000">
+          <style class="Flat Light Green" />
+        </attribute>
+      </attributes>
+      <operations>
+        <operation id="od8b55b8730b1442ca8dceb9ccf5fc3ba31" cid="OP001" name="GetCheckinInformation" creation-date="07/10/2022 15:35:05" type="Task&lt;IActionResult&gt;" type-id="Task&lt;IActionResult&gt;" visibility="public">
+          <style class="Flat Light Green" />
+          <parameters>
+            <parameter id="p20d69b680d4f447f8a4fd8fbc3252ed9" name="command" type="GetCheckinInformationCommand" type-id="GetCheckinInformationCommand">
+              <tagged-values>
+                <tagged-value id="tved642d6f0e3f45a0b8ef5c3f9794a3ed" name="Annotation" type="text" multiple="false" hidden="false" value="FromQuery" />
+              </tagged-values>
+            </parameter>
+            <parameter id="p442b704fedb4461db4422156a81a8f9c" name="mediator" type="IMediator" type-id="IMediator">
+              <tagged-values>
+                <tagged-value id="tv65bcc76bd2314e2fb144a558a8234d1b" name="Annotation" type="text" multiple="false" hidden="false" value="FromServices" />
+              </tagged-values>
+            </parameter>
+          </parameters>
+          <stereotypes>
+            <stereotype>async</stereotype>
+          </stereotypes>
+          <tagged-values>
+            <tagged-value id="tvd08aa1c2705d44fa81e39b9518b6170e" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetCheckinInformation" />
+            <tagged-value id="tv51d073a4237e4d869ab8058a5d833cbe" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\Bassam.Alugili\OneDrive - Körber AG\Desktop\COS\NotificationService\src\NotificationAPI\Controllers\BitBucketController.cs" />
+            <tagged-value id="tva69adf8bcc3c4159bf2b8266354131a2" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+            <tagged-value id="tv36da1b15c7a042cdb024fbae814ad268" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="429" />
+            <tagged-value id="tvda9da49754764c14bc09d2a02dccbbbf" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="277" />
+          </tagged-values>
+          <documentations>
+            <doc id="59677d1e385040d1880ccc891b799eec">
+              <text>
+                <default>
+                  <style font-name="Verdana" font-size="12">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </default>
+                <styles>
+                  <style name="S1" font-name="Microsoft Sans Serif" font-size="8.25">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <style numbering-type="None">
+                      <numbering name="" multi-level="false">
+                        <numbering-level type="None" level="0" format="{0}." />
+                      </numbering>
+                    </style>
+                    <p s="S1">
+                      <t> todo
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </doc>
+          </documentations>
+          <source-codes>
+            <source-code language="CSharp">
+               
+        ICheckIn checkIn;
+        var result = await mediator.Send(command);
+        return Ok(result);
+    </source-code>
+          </source-codes>
+        </operation>
+        <operation id="o646ebbec3ffb404ea827dc02515bbf4f32" cid="OP002" name="GetRelatedRepositories" creation-date="07/10/2022 15:35:05" type="Task&lt;IActionResult&gt;" type-id="Task&lt;IActionResult&gt;" visibility="public">
+          <style class="Flat Light Green" />
+          <parameters>
+            <parameter id="pc9441659adcd463b83d5eefa83019549" name="command" type="GetRelatedRepositoriesCommand" type-id="Class:b06ce997394d4da797df074459da3ef6">
+              <tagged-values>
+                <tagged-value id="tv7420eecd932e4335aa358cbc5337af1c" name="Annotation" type="text" multiple="false" hidden="false" value="FromQuery" />
+              </tagged-values>
+            </parameter>
+            <parameter id="p3811fd36cc5c4604af28e2fa81e0a121" name="mediator" type="IMediator" type-id="IMediator">
+              <tagged-values>
+                <tagged-value id="tv6f245706458642bb8990310810880675" name="Annotation" type="text" multiple="false" hidden="false" value="FromServices" />
+              </tagged-values>
+            </parameter>
+          </parameters>
+          <stereotypes>
+            <stereotype>async</stereotype>
+          </stereotypes>
+          <tagged-values>
+            <tagged-value id="tv8188a92e684243b3a686c8db11ad5cbe" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetRelatedRepositories" />
+            <tagged-value id="tv620e5bc0094c41eb92ef104de165fe08" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\Bassam.Alugili\OneDrive - Körber AG\Desktop\COS\NotificationService\src\NotificationAPI\Controllers\BitBucketController.cs" />
+            <tagged-value id="tv082becd6ca4a47f5818ff60a59bc1e7a" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+            <tagged-value id="tv46ffa83eaf5641b6a919eaf8f5ab953e" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="729" />
+            <tagged-value id="tvd025806cc89c4196a2197a829e23aac6" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="279" />
+          </tagged-values>
+          <documentations>
+            <doc id="52b92f742d894446846910baa36fa10d">
+              <text>
+                <default>
+                  <style font-name="Verdana" font-size="12">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </default>
+                <styles>
+                  <style name="S1" font-name="Microsoft Sans Serif" font-size="8.25">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <style numbering-type="None">
+                      <numbering name="" multi-level="false">
+                        <numbering-level type="None" level="0" format="{0}." />
+                      </numbering>
+                    </style>
+                    <p s="S1">
+                      <t> todo
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </doc>
+          </documentations>
+          <source-codes>
+            <source-code language="CSharp">
+               
+        ICheckIn checkIn;
+        var result = await mediator.Send(command);
+        return Ok(result);
+    </source-code>
+          </source-codes>
+        </operation>
+        <operation id="o2b0d5c47ba0e4672986ddd9ed395573832" cid="OP003" name="GetPullRequest" creation-date="07/10/2022 15:35:05" type="Task&lt;IActionResult&gt;" type-id="Task&lt;IActionResult&gt;" visibility="public">
+          <style class="Flat Light Green" />
+          <parameters>
+            <parameter id="p95d393c0b0a04b91bf12b74f9e23c3d7" name="command" type="GetPullRequestCommand" type-id="Class:12215ce8e0cf41789e64ca7f8a5cde1f">
+              <tagged-values>
+                <tagged-value id="tvaa8e58d39b8847f9a23890dafe71a519" name="Annotation" type="text" multiple="false" hidden="false" value="FromQuery" />
+              </tagged-values>
+            </parameter>
+            <parameter id="p047b59ea9fde43fb9c8c9b0bdcd3a054" name="mediator" type="IMediator" type-id="IMediator">
+              <tagged-values>
+                <tagged-value id="tv559d7fd433194325ad09d4c6aef869ca" name="Annotation" type="text" multiple="false" hidden="false" value="FromServices" />
+              </tagged-values>
+            </parameter>
+          </parameters>
+          <stereotypes>
+            <stereotype>async</stereotype>
+          </stereotypes>
+          <tagged-values>
+            <tagged-value id="tv590546b249414c189547e43c844e7b9f" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetPullRequest" />
+            <tagged-value id="tvbd3b848bf52f46828d2efda0f533874c" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\Bassam.Alugili\OneDrive - Körber AG\Desktop\COS\NotificationService\src\NotificationAPI\Controllers\BitBucketController.cs" />
+            <tagged-value id="tv4e42be4a810a4a7cbc22b07ed992a30f" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+            <tagged-value id="tv2c258b54852547e4ad250f61eddb29ff" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1031" />
+            <tagged-value id="tv10fc73676dfc4cceadcf2a43a6d1bd65" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="263" />
+          </tagged-values>
+          <documentations>
+            <doc id="a8b039f308cb47bd90346561f074ecda">
+              <text>
+                <default>
+                  <style font-name="Verdana" font-size="12">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </default>
+                <styles>
+                  <style name="S1" font-name="Microsoft Sans Serif" font-size="8.25">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <style numbering-type="None">
+                      <numbering name="" multi-level="false">
+                        <numbering-level type="None" level="0" format="{0}." />
+                      </numbering>
+                    </style>
+                    <p s="S1">
+                      <t> todo
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </doc>
+          </documentations>
+          <source-codes>
+            <source-code language="CSharp">
+               
+        ICheckIn checkIn;
+        var result = await mediator.Send(command);
+        return Ok(result);
+    </source-code>
+          </source-codes>
+        </operation>
+        <operation id="od47c4e32c7cc4734b8fabe16d54b1a7832" cid="OP004" name="BitBucketController" creation-date="07/10/2022 15:35:05" type="" type-id="" visibility="public">
+          <style class="Flat Light Green" />
+          <parameters>
+            <parameter id="p5ee228c89a2c481792f68274c09ca27e" name="logger" type="ILogger&lt;BitBucketController&gt;" type-id="ILogger&lt;BitBucketController&gt;" />
+          </parameters>
+          <stereotypes>
+            <stereotype>create</stereotype>
+          </stereotypes>
+          <tagged-values>
+            <tagged-value id="tv173f935457b449138c9411e996ed9e2f" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="BitBucketController" />
+            <tagged-value id="tvb0ec2f4038224cd0afa3a3de9a8b6006" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\Bassam.Alugili\OneDrive - Körber AG\Desktop\COS\NotificationService\src\NotificationAPI\Controllers\BitBucketController.cs" />
+            <tagged-value id="tv803f98f5fdb44382964d28049e688459" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+            <tagged-value id="tv9d134c6ffd0e428a84f296a9cac94931" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1302" />
+            <tagged-value id="tvdadde7f5010a4fafbd56bd28142d665c" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="104" />
+          </tagged-values>
+        </operation>
+      </operations>
+    </item>
+    <item id="16cd516a870d49b7a452b89e7c25e5c8" cid="PROP021" type="property" name="AffectedBitbucketUsers" style-class="" creation-date="07/10/2022 16:50:38" visibility="private">
+      <feature />
+      <structural-feature type="" type-id="" />
+      <property />
+    </item>
+    <item id="ce1d74cb276a42ed94d95218b24a02c0" cid="DEP001" type="dependency" name="" style-class="" creation-date="07/10/2022 15:35:05" to="3f6856c86ee34aac83a97ac9419dc201" visibility="package">
+      <tagged-values>
+        <tagged-value id="tv8437313c7cbb4407b5e5bfb7623774fb" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+      </tagged-values>
+    </item>
+    <item id="5dde5b0fe6e84beea59c386a4ac946d4" cid="CMT001" type="comment" name="Comment" style-class="" creator="" creation-date="07/10/2022 16:17:27">
+      <comment />
+    </item>
+    <item id="b9662d878b464911ae32ff67d4838313" cid="C006" type="class" name="Todo" style-class="Flat Light Blue" creation-date="07/10/2022 15:35:05" visibility="public">
+      <tagged-values>
+        <tagged-value id="tv63ee40dcba3e4fdf8326ef5d17f2915c" name="namespace" type="text" multiple="false" hidden="false" value="" />
+        <tagged-value id="tv20e72ba1da904067b9c6853243a04d69" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Todo" />
+        <tagged-value id="tv9cc6554e355944c2ba63eed1ee8ae443" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p9c9f1b6efbae47e39bce437369aefe65_446132824" />
+        <tagged-value id="tv0b7d8aa082e0402aad329da083d64e16" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\Bassam.Alugili\OneDrive - Körber AG\Desktop\COS\NotificationService\src\Infrastructure\Todo.cs" />
+        <tagged-value id="tvf5e559f39c7d4f88aa9d0bcefda16529" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+        <tagged-value id="tv36eb518c5eb24808b2449c2ffb3cb9b9" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="197" />
+        <tagged-value id="tvd9be9a9614e14390b6cc1be9b279278a" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="420" />
+        <tagged-value id="tvf387737d8a9449d197f0e4d2134bf439" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="620" />
+        <tagged-value id="tvf6c155844705423b8f713b747e80ee19" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="07/10/2022 10:10:55" />
+      </tagged-values>
+      <owned-items>
+        <owned-item ref="1f71dea2f52b4baeac5ce7361da0f35b" />
+        <owned-item ref="bf4a8ac9d853488f84068d973ba30bf5" />
+        <owned-item ref="e000097dd780424187f35b8e49310f02" />
+      </owned-items>
+      <style class="Flat Light Blue" />
+      <attributes>
+        <attribute id="a19a4a7436a8e48acaf5f32a80b8dc65a33" cid="PROP015" name="checkin" creation-date="07/10/2022 15:35:05" property-ref="dd941e0a539d43ff9575105f7d6fd3d8" />
+        <attribute id="a0bbcedf2e40a45818ecd5a5a24f9aa7333" cid="PROP016" name="notfNotifyUsers" creation-date="07/10/2022 15:35:05" property-ref="d1695a181b584a6192cd94328abb225a" />
+        <attribute id="a94e2f8a81ffa4124b1b27070542bca6e34" cid="PROP017" name="jiraIssuesManagement" creation-date="07/10/2022 15:35:05" property-ref="5c2f88946ca5404b985a4f5eb388035d" />
+      </attributes>
+      <operations>
+        <operation id="o8efd61e8c35e4a5db284120189ec699434" cid="OP006" name="Todo" creation-date="07/10/2022 15:35:05" type="" type-id="" visibility="public">
+          <parameters>
+            <parameter id="p8c19ffa3b3314ef9aca0ccf34e9b3ff9" name="checkin" type="ICheckIn" type-id="ICheckIn" />
+            <parameter id="p2d0be3f90c1643d1b1f25c77e64b8129" name="notfNotifyUsers" type="INotifyUsers" type-id="Class:f8db724ac572489b93d43b3000b8df4b" />
+            <parameter id="p226aed74af104146b1dd38f31f1a8237" name="jiraIssuesManagement" type="IJiraIssuesManagement" type-id="IJiraIssuesManagement" />
+          </parameters>
+          <stereotypes>
+            <stereotype>create</stereotype>
+          </stereotypes>
+          <tagged-values>
+            <tagged-value id="tv27a8b0dedc77479093175b9d85465ae5" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Todo" />
+            <tagged-value id="tv125bd31cb4294980b11463c71e19695d" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\Bassam.Alugili\OneDrive - Körber AG\Desktop\COS\NotificationService\src\Infrastructure\Todo.cs" />
+            <tagged-value id="tv3c3cd1a99e5a41d5a938e77caa28cdc5" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+            <tagged-value id="tv7ca88cfd76cc4cb6baf05ac7006a6cd9" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="356" />
+            <tagged-value id="tv0451da2104f34004bb2cc94befe1413e" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="258" />
+          </tagged-values>
+        </operation>
+      </operations>
+    </item>
+    <item id="94dce622efd44891a5889f123924ee1c" cid="DEP002" type="dependency" name="" style-class="" creation-date="07/10/2022 15:35:05" from="19aa553617674d5492fcaba92878c1c9" to="b06ce997394d4da797df074459da3ef6" visibility="package">
+      <tagged-values>
+        <tagged-value id="tv4fe6de3259a242d4a0a417f037d9bd7e" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+      </tagged-values>
+    </item>
+    <item id="76f76c348e474e6fbdd523d2e42a5933" cid="PROP024" type="property" name="_logger" style-class="" creation-date="07/10/2022 16:50:38" visibility="private">
+      <feature />
+      <structural-feature type="" type-id="" />
+      <property />
+    </item>
+    <item id="40fd49239c7d4df88f94bce9aec3ca97" cid="CMT002" type="comment" name="Comment" style-class="" creator="" creation-date="07/10/2022 16:42:36">
+      <comment />
+    </item>
+    <item id="785cb6d943d54cf8815c19a732ad96f0" cid="C007" type="class" name="Notification" style-class="Flat Yellow" creation-date="07/10/2022 15:35:05" visibility="public">
+      <tagged-values>
+        <tagged-value id="tvbc993d872d3e42c6be0963403951374b" name="namespace" type="text" multiple="false" hidden="false" value="" />
+        <tagged-value id="tvf0c9a3f37bea4b14979804d9851fead3" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Notification" />
+        <tagged-value id="tv85012da1c6d84908bf87aaf5edd74a0c" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p9c9f1b6efbae47e39bce437369aefe65_446132824" />
+        <tagged-value id="tv6f8bbbc55fb7470cb95e0c35d68b42bc" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\Bassam.Alugili\OneDrive - Körber AG\Desktop\COS\NotificationService\src\Domain\Notification.cs" />
+        <tagged-value id="tvde04187f99604ae5913367ed89091a40" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+        <tagged-value id="tv96849571107c466bb656ce45517da25d" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="52" />
+        <tagged-value id="tv8f3412b898ca46bdaf6cc2f6140728c8" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="347" />
+        <tagged-value id="tvab82354b54e04bc8b76969a774370329" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="402" />
+        <tagged-value id="tva933b58775ea43ffba4c7508ac841075" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="07/10/2022 09:26:51" />
+      </tagged-values>
+      <owned-items>
+        <owned-item ref="bf2aaf5b540142fa807a43f80f035064" />
+        <owned-item ref="18a8a4906bcd406ca753b6eeacac78c2" />
+        <owned-item ref="bb6e0c39385c44cb94cc3e65d889ed46" />
+        <owned-item ref="d5dafba38e6346fd8720a37dfaed8ebd" />
+        <owned-item ref="9eab3090b99d4d9ea6108c745dbdabbb" />
+        <owned-item ref="97dfdfd04249400eba23ae723216fba4" />
+      </owned-items>
+      <style class="Flat Yellow" />
+      <attributes>
+        <attribute id="a3b70df94efc94eaf928e86b60208a87135" cid="PROP018" name="Id" creation-date="07/10/2022 15:35:05" property-ref="3e7c3a8846d14f1db8955f3e83f020ed">
+          <style class="Flat Yellow" />
+        </attribute>
+        <attribute id="adbb76333e4ff4bdc8fe9a2252c29574c35" cid="PROP019" name="PullRequest" creation-date="07/10/2022 15:35:05" property-ref="6ee3dc5af708499194e5786e3aba0b4c" />
+        <attribute id="aba79651c6c9441358b97bf878e96d33035" cid="PROP020" name="FixInformation" creation-date="07/10/2022 15:35:05" property-ref="ce887f78e66e4e9a8c8531b87280cf6b">
+          <style class="Flat Yellow" />
+        </attribute>
+        <attribute id="a75f0f95a9d8b4557850a46805a90cb6536" cid="PROP021" name="AffectedBitbucketUsers" creation-date="07/10/2022 15:35:05" property-ref="16cd516a870d49b7a452b89e7c25e5c8" />
+        <attribute id="af744ad6426db4583867dd12cab1d63b536" cid="PROP022" name="AffectedJiraProjects" creation-date="07/10/2022 15:35:05" property-ref="5e0d5cb4c5d048a7a3b368fe824ad085" />
+        <attribute id="a9c4f38bda4aa48649a743c46198b6ff636" cid="PROP023" name="Created" creation-date="07/10/2022 15:35:05" property-ref="b53088a30b094b848b2e48de4f189a0b" />
+      </attributes>
+    </item>
+    <item id="a593dae87c3849d3bb598f93e9581e38" cid="I002" type="uml-interface-classifier" name="IJiraIssuesManagement" style-class="Flat Light Cyan" creation-date="07/10/2022 15:35:05" visibility="public">
+      <stereotypes>
+        <stereotype name="interface" />
+      </stereotypes>
+      <tagged-values>
+        <tagged-value id="tv17332dad828543d7af3ccbf31e36af0f" name="namespace" type="text" multiple="false" hidden="false" value="" />
+        <tagged-value id="tvad499c37720249ddbd5e6cebc9ef9c89" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="IJiraIssuesManagement" />
+        <tagged-value id="tv3bcbfa3258f441d197e0776b198b4923" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p9c9f1b6efbae47e39bce437369aefe65_446132824" />
+        <tagged-value id="tv8e245dee313e40e2bbca21adcb0c5240" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\Bassam.Alugili\OneDrive - Körber AG\Desktop\COS\NotificationService\src\Application\UseCases\Jira\IJiraIssuesManagement.cs" />
+        <tagged-value id="tvfb280940400642f2be40c443c6d6c289" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+        <tagged-value id="tv3050a781c714403e9f54ae68004e3278" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="71" />
+        <tagged-value id="tv09af183447804c8393c040c6c7bd5780" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="173" />
+        <tagged-value id="tv63b602ea0c85484aa1125ccc9adce3af" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="247" />
+        <tagged-value id="tv9bbd259eb9124a0a959466f282ac0824" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="07/10/2022 09:26:51" />
+      </tagged-values>
+      <stereotype-instances>
+        <stereotype id="a593dae87c3849d3bb598f93e9581e38_interface_c" type="interface" ref="" />
+      </stereotype-instances>
+      <style class="Flat Light Cyan" />
+      <operations>
+        <operation id="ob7388f768efb4f14957c93d0a96f665736" cid="OP007" name="CreateInIssue" creation-date="07/10/2022 15:35:05" type="ICollection&lt;string&gt;" type-id="ICollection&lt;string&gt;" visibility="public">
+          <parameters>
+            <parameter id="p1f042745b8d845f3b223c08007f433da" name="projectName" type="string" type-id="string" />
+            <parameter id="pc0e883119ba342bfa71b598b9adfa050" name="relatedProjects" type="string" type-id="string" />
+            <parameter id="p376331f5f86049a283061938dde6d6bd" name="description" type="string" type-id="string" />
+            <parameter id="p213455e77dbb4cbd83436cfeaa2574a2" name="checkinId" type="string" type-id="string" />
+          </parameters>
+          <tagged-values>
+            <tagged-value id="tv06f155f659de4d24ae4513f6e8d7905f" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="CreateInIssue" />
+            <tagged-value id="tvac2b0f23f5dd4fb49901b48970135b71" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\Bassam.Alugili\OneDrive - Körber AG\Desktop\COS\NotificationService\src\Application\UseCases\Jira\IJiraIssuesManagement.cs" />
+            <tagged-value id="tvd9fd1e19642d4f0594f0fa6aedb8392a" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+            <tagged-value id="tvdb6812c808b949feb13f64071f182469" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="118" />
+            <tagged-value id="tv87aa9ca1c8314cfbb38bcca251e5dda2" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="123" />
+          </tagged-values>
+        </operation>
+      </operations>
+    </item>
+    <item id="47527f70c56f47ac82fe09e4cfda9bb2" cid="I001" type="uml-interface-classifier" name="IMediator" style-class="Flat Light Green" creation-date="07/10/2022 15:35:05" visibility="public">
+      <stereotypes>
+        <stereotype name="interface" />
+      </stereotypes>
+      <tagged-values>
+        <tagged-value id="tv61afb6431c70435ab4c01db08efe7808" name="namespace" type="text" multiple="false" hidden="false" value="" />
+        <tagged-value id="tvf2f16e2b98534b8ca3847db9df266628" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="IMediator" />
+        <tagged-value id="tvde86de0a30c847eaa39e5b4c2d039660" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p9c9f1b6efbae47e39bce437369aefe65_446132824" />
+        <tagged-value id="tvfc789601ca0b428c8c077796f13d578b" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\Bassam.Alugili\OneDrive - Körber AG\Desktop\COS\NotificationService\src\NotificationAPI\IMediator.cs" />
+        <tagged-value id="tv8d8a22ce2d5643039a6a4eea9cdb722a" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+        <tagged-value id="tv93f3001cfe924ea68b0307520f41f0fa" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="69" />
+        <tagged-value id="tv82c3d42edf9342fb8354552e8a9942dc" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="91" />
+        <tagged-value id="tvbd91c33008284e9a91cf0618e46599f7" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="160" />
+        <tagged-value id="tv384514ccc12f4ef68e893ab8818842a1" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="07/10/2022 09:50:49" />
+      </tagged-values>
+      <stereotype-instances>
+        <stereotype id="47527f70c56f47ac82fe09e4cfda9bb2_interface_c" type="interface" ref="" />
+      </stereotype-instances>
+      <style class="Flat Light Green" />
+      <operations>
+        <operation id="o49c430e1e6704df1bceca56379e3251a32" cid="OP005" name="Send" creation-date="07/10/2022 15:35:05" type="ValueTask&lt;object?&gt;" type-id="ValueTask&lt;object?&gt;" visibility="undefined">
+          <style class="Flat Light Green" />
+          <parameters>
+            <parameter id="p78f3cd329b5d4d7abf2f95b6f31945bf" name="command" type="object" type-id="object" />
+          </parameters>
+          <tagged-values>
+            <tagged-value id="tv26437a05b92748c6ba7c7592c2686e70" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Send" />
+            <tagged-value id="tv30f1a56e60994d089e6751003079b562" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\Bassam.Alugili\OneDrive - Körber AG\Desktop\COS\NotificationService\src\NotificationAPI\IMediator.cs" />
+            <tagged-value id="tvfe3b4234641a4ee1985a6b95b81e726f" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+            <tagged-value id="tvd15933aad15842c8898fafd90f601c29" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="117" />
+            <tagged-value id="tv081a009eb1cf4d3da4005b517bf99bd1" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="40" />
+          </tagged-values>
+          <documentations>
+            <doc id="142afd250ad14f9e89c2f18ea03b0baf">
+              <text>
+                <default>
+                  <style font-name="Verdana" font-size="12">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </default>
+                <styles>
+                  <style name="S1" font-name="Microsoft Sans Serif" font-size="8.25">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <style numbering-type="None">
+                      <numbering name="" multi-level="false">
+                        <numbering-level type="None" level="0" format="{0}." />
+                      </numbering>
+                    </style>
+                    <p s="S1">
+                      <t> todo
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </doc>
+          </documentations>
+        </operation>
+      </operations>
+    </item>
+    <item id="ac89d7ab110944e28e4925ea4e08b0af" cid="I004" type="uml-interface-classifier" name="ICheckIn" style-class="Flat Light Cyan" creation-date="07/10/2022 15:35:05" visibility="public">
+      <stereotypes>
+        <stereotype name="interface" />
+      </stereotypes>
+      <tagged-values>
+        <tagged-value id="tv7e6d03a67c8e45f5ba114a356d8c7b09" name="namespace" type="text" multiple="false" hidden="false" value="" />
+        <tagged-value id="tv4b43565266634d029b3553d6aa8f8060" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="ICheckIn" />
+        <tagged-value id="tv227f0239079f430ca9dedd57ad870395" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p9c9f1b6efbae47e39bce437369aefe65_446132824" />
+        <tagged-value id="tv5f6063bb76bb49bf8437912c6390c4ee" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\Bassam.Alugili\OneDrive - Körber AG\Desktop\COS\NotificationService\src\Application\UseCases\Bitbucket\ICheckIn.cs" />
+        <tagged-value id="tvbac14204d5b843cc99608195b6526d82" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+        <tagged-value id="tv35dc093767624e5a8787d03a0eabf477" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="142" />
+        <tagged-value id="tv9b58158696df4862968e9d6fe2429838" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="2363" />
+        <tagged-value id="tvc1e3426dfabf4b89b5789d250f93a239" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="2508" />
+        <tagged-value id="tvfd83985bc08a4e5aaed20d04f72270a9" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="07/10/2022 09:26:51" />
+      </tagged-values>
+      <stereotype-instances>
+        <stereotype id="ac89d7ab110944e28e4925ea4e08b0af_interface_c" type="interface" ref="" />
+      </stereotype-instances>
+      <style class="Flat Light Cyan" />
+      <operations>
+        <operation id="o3acb37d88a674efaaedb6a3fed69bca947" cid="OP011" name="GetCheckinInformation" creation-date="07/10/2022 15:35:05" type="string" type-id="string" visibility="public">
+          <parameters>
+            <parameter id="p8b28da223d644bbab60f9e827daa3119" name="workspace" type="string" type-id="string" />
+            <parameter id="p46dc85bb613d4b1291b3712b574ff68b" name="uuid" type="string" type-id="string" />
+            <parameter id="p0fded84d40ed4170a5da8510d3d7631f" name="commit" type="string" type-id="string" />
+          </parameters>
+          <tagged-values>
+            <tagged-value id="tv73038aa7eea643ffb17ba390228966a7" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetCheckinInformation" />
+            <tagged-value id="tv6ec9046656c9460ab1970f79666d75de" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\Bassam.Alugili\OneDrive - Körber AG\Desktop\COS\NotificationService\src\Application\UseCases\Bitbucket\ICheckIn.cs" />
+            <tagged-value id="tv711132cca9504022b75054a634822ed8" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+            <tagged-value id="tv1752dc2dcdd545dcb4ec0c4181b5758f" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="971" />
+            <tagged-value id="tv84bc146dc5f749e186430590047eb057" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="82" />
+          </tagged-values>
+          <documentations>
+            <doc id="777c9fa49cd24f358500538551bfbf62">
+              <text>
+                <default>
+                  <style font-name="Verdana" font-size="12">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </default>
+                <styles>
+                  <style name="S1" font-name="Microsoft Sans Serif" font-size="8.25">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <style numbering-type="None">
+                      <numbering name="" multi-level="false">
+                        <numbering-level type="None" level="0" format="{0}." />
+                      </numbering>
+                    </style>
+                    <p s="S1">
+                      <t> </t>
+                    </p>
+                    <p s="S1">
+                      <t> Gets the sdk check in information.
+</t>
+                    </p>
+                  </paragraph>
+                  <paragraph>
+                    <style numbering-type="None">
+                      <numbering name="" multi-level="false">
+                        <numbering-level type="None" level="0" format="{0}." />
+                      </numbering>
+                    </style>
+                    <p s="S1">
+                      <t> GET /2.0/repositories/{workspace}/{repo_slug}/commit/{commit}
+</t>
+                    </p>
+                  </paragraph>
+                  <paragraph>
+                    <style numbering-type="None">
+                      <numbering name="" multi-level="false">
+                        <numbering-level type="None" level="0" format="{0}." />
+                      </numbering>
+                    </style>
+                    <p s="S1">
+                      <t> https://developer.atlassian.com/cloud/bitbucket/rest/api-group-commits/#api-repositories-workspace-repo-slug-commit-commit-get
+</t>
+                    </p>
+                  </paragraph>
+                  <paragraph>
+                    <style numbering-type="None">
+                      <numbering name="" multi-level="false">
+                        <numbering-level type="None" level="0" format="{0}." />
+                      </numbering>
+                    </style>
+                    <p s="S1">
+                      <t> </t>
+                    </p>
+                    <p s="S1">
+                      <t> </t>
+                    </p>
+                    <p s="S1">
+                      <t>This can either be the workspace ID (slug) or the workspace UUID surrounded by curly-braces, for example: {workspace UUID}.</t>
+                    </p>
+                    <p s="S1">
+                      <t> </t>
+                    </p>
+                    <p s="S1">
+                      <t>This can either be the repository slug or the UUID of the repository, surrounded by curly-braces, for example: {repository UUID}</t>
+                    </p>
+                    <p s="S1">
+                      <t> </t>
+                    </p>
+                    <p s="S1">
+                      <t>The commit's SHA1</t>
+                    </p>
+                    <p s="S1">
+                      <t> </t>
+                    </p>
+                    <p s="S1">
+                      <t>The commit object, in JSON format. </t>
+                    </p>
+                    <p s="S1">
+                      <t>Read the given above documentations.
+</t>
+                    </p>
+                  </paragraph>
+                  <paragraph>
+                    <style numbering-type="None">
+                      <numbering name="" multi-level="false">
+                        <numbering-level type="None" level="0" format="{0}." />
+                      </numbering>
+                    </style>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </doc>
+          </documentations>
+        </operation>
+        <operation id="o53e9989df89748068b6eff2bf541dc4847" cid="OP012" name="GetRelatedRepositories" creation-date="07/10/2022 15:35:05" type="ICollection&lt;string&gt;" type-id="ICollection&lt;string&gt;" visibility="public">
+          <parameters>
+            <parameter id="p919190bca63d46898fd1248f0c8408a9" name="tag" type="string" type-id="string" />
+            <parameter id="pa44fab21d88745aab1da102e98e91d1b" name="workspaceUUID" type="string" type-id="string" />
+            <parameter id="pd2534353d0af41c395d6f8ce4aa1df41" name="repositoryUUID" type="string" type-id="string" />
+            <parameter id="p0db32fbaa92e4821b45e81b132711a05" name="jiraId" type="string" type-id="string" />
+          </parameters>
+          <tagged-values>
+            <tagged-value id="tvda021938f57c49f1a1e4f9fbd77aaed4" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetRelatedRepositories" />
+            <tagged-value id="tv098f1db054524081a96b39406f35571b" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\Bassam.Alugili\OneDrive - Körber AG\Desktop\COS\NotificationService\src\Application\UseCases\Bitbucket\ICheckIn.cs" />
+            <tagged-value id="tv5dd60eff2822434d81d006a0278e9627" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+            <tagged-value id="tv3b6366fe0b9b45b8b9660fd475ce623b" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1538" />
+            <tagged-value id="tv19f825c4ca1e4397b4a5a6f1cfe72497" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="122" />
+          </tagged-values>
+          <documentations>
+            <doc id="89e7e2b03e834d28b0650b31eb8d5f99">
+              <text>
+                <default>
+                  <style font-name="Verdana" font-size="12">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </default>
+                <styles>
+                  <style name="S1" font-name="Microsoft Sans Serif" font-size="8.25">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <style numbering-type="None">
+                      <numbering name="" multi-level="false">
+                        <numbering-level type="None" level="0" format="{0}." />
+                      </numbering>
+                    </style>
+                    <p s="S1">
+                      <t> </t>
+                    </p>
+                    <p s="S1">
+                      <t> Finds the related project to the SDK.
+</t>
+                    </p>
+                  </paragraph>
+                  <paragraph>
+                    <style numbering-type="None">
+                      <numbering name="" multi-level="false">
+                        <numbering-level type="None" level="0" format="{0}." />
+                      </numbering>
+                    </style>
+                    <p s="S1">
+                      <t> Todo use query filter to find the related projects. 
+</t>
+                    </p>
+                  </paragraph>
+                  <paragraph>
+                    <style numbering-type="None">
+                      <numbering name="" multi-level="false">
+                        <numbering-level type="None" level="0" format="{0}." />
+                      </numbering>
+                    </style>
+                    <p s="S1">
+                      <t> </t>
+                    </p>
+                    <p s="S1">
+                      <t> </t>
+                    </p>
+                    <p s="S1">
+                      <t>Filter the search context.</t>
+                    </p>
+                    <p s="S1">
+                      <t> </t>
+                    </p>
+                    <p s="S1">
+                      <t>The sdk workspace UUID.</t>
+                    </p>
+                    <p s="S1">
+                      <t> </t>
+                    </p>
+                    <p s="S1">
+                      <t>The repository UUID.</t>
+                    </p>
+                    <p s="S1">
+                      <t> </t>
+                    </p>
+                    <p s="S1">
+                      <t>Jira Pull-Request Id or Index. Todo review if needed!</t>
+                    </p>
+                    <p s="S1">
+                      <t> </t>
+                    </p>
+                    <p s="S1">
+                      <t>A list ob 
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </doc>
+          </documentations>
+        </operation>
+        <operation id="o83d144317d9e48349dc29bb99109a6aa48" cid="OP013" name="GetPullRequest" creation-date="07/10/2022 15:35:05" type="string" type-id="string" visibility="public">
+          <parameters>
+            <parameter id="pf6c932a3dbed4b56abf720c6238f09bc" name="workspace" type="string" type-id="string" />
+            <parameter id="p27d97de7c5644539b362d63673b7ce7b" name="uuid" type="string" type-id="string" />
+            <parameter id="pf037780c714e48349e5f448bebfb6e8a" name="commit" type="string" type-id="string" />
+            <parameter id="p5a70a9726b154042a9806124af3fa256" name="pullRequestId" type="string" type-id="string" />
+          </parameters>
+          <tagged-values>
+            <tagged-value id="tvde3a57a1c38547538e88d47c2d796f76" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetPullRequest" />
+            <tagged-value id="tv9172e999fc414aec829ebcc3a0a30cbd" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\Bassam.Alugili\OneDrive - Körber AG\Desktop\COS\NotificationService\src\Application\UseCases\Bitbucket\ICheckIn.cs" />
+            <tagged-value id="tv64a6e2b371aa4bac9a5891cfb5191876" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+            <tagged-value id="tv714622be6e2a43b28b8f79dc74d372c6" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="2405" />
+            <tagged-value id="tv2c262a0bced6458382f2455c0d67dd41" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="97" />
+          </tagged-values>
+          <documentations>
+            <doc id="3072729c84354cb78792a7408a2eae03">
+              <text>
+                <default>
+                  <style font-name="Verdana" font-size="12">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </default>
+                <styles>
+                  <style name="S1" font-name="Microsoft Sans Serif" font-size="8.25">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <style numbering-type="None">
+                      <numbering name="" multi-level="false">
+                        <numbering-level type="None" level="0" format="{0}." />
+                      </numbering>
+                    </style>
+                    <p s="S1">
+                      <t> </t>
+                    </p>
+                    <p s="S1">
+                      <t> Gets the pull request information.
+</t>
+                    </p>
+                  </paragraph>
+                  <paragraph>
+                    <style numbering-type="None">
+                      <numbering name="" multi-level="false">
+                        <numbering-level type="None" level="0" format="{0}." />
+                      </numbering>
+                    </style>
+                    <p s="S1">
+                      <t> https://developer.atlassian.com/cloud/bitbucket/rest/api-group-pullrequests/#api-repositories-workspace-repo-slug-commit-commit-pullrequests-get
+</t>
+                    </p>
+                  </paragraph>
+                  <paragraph>
+                    <style numbering-type="None">
+                      <numbering name="" multi-level="false">
+                        <numbering-level type="None" level="0" format="{0}." />
+                      </numbering>
+                    </style>
+                    <p s="S1">
+                      <t> </t>
+                    </p>
+                    <p s="S1">
+                      <t> </t>
+                    </p>
+                    <p s="S1">
+                      <t>This can either be the workspace ID (slug) or the workspace UUID surrounded by curly-braces, for example: {workspace UUID}.</t>
+                    </p>
+                    <p s="S1">
+                      <t> </t>
+                    </p>
+                    <p s="S1">
+                      <t>This can either be the repository slug or the UUID of the repository, surrounded by curly-braces, for example: {repository UUID}</t>
+                    </p>
+                    <p s="S1">
+                      <t> </t>
+                    </p>
+                    <p s="S1">
+                      <t>The commit's SHA1</t>
+                    </p>
+                    <p s="S1">
+                      <t> </t>
+                    </p>
+                    <p s="S1">
+                      <t>The pull request JSON object. </t>
+                    </p>
+                    <p s="S1">
+                      <t>Read the given above documentations.
+</t>
+                    </p>
+                  </paragraph>
+                  <paragraph>
+                    <style numbering-type="None">
+                      <numbering name="" multi-level="false">
+                        <numbering-level type="None" level="0" format="{0}." />
+                      </numbering>
+                    </style>
+                    <p s="S1">
+                      <t>
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </doc>
+          </documentations>
+        </operation>
+      </operations>
+    </item>
+    <item id="5e0d5cb4c5d048a7a3b368fe824ad085" cid="PROP022" type="property" name="AffectedJiraProjects" style-class="" creation-date="07/10/2022 16:50:38" visibility="private">
+      <feature />
+      <structural-feature type="" type-id="" />
+      <property />
+    </item>
+    <item id="aad94e7e1efe419cb6b6c7757dfd30b6" cid="DEP003" type="dependency" name="" style-class="" creation-date="07/10/2022 15:35:05" from="19aa553617674d5492fcaba92878c1c9" to="12215ce8e0cf41789e64ca7f8a5cde1f" visibility="package">
+      <tagged-values>
+        <tagged-value id="tvbc73eb4aae4b495ba18bae9d57ca6483" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+      </tagged-values>
+    </item>
+    <item id="c014ea24ecc743f599530d1394d0f845" cid="GROUP706" type="group" name="Group" style-class="" creator="" creation-date="07/10/2022 16:30:12" />
+    <item id="3f6856c86ee34aac83a97ac9419dc201" cid="C005" type="class" name="GetCheckinInformationCommand" style-class="Flat Light Green" creation-date="07/10/2022 15:35:05" visibility="public">
+      <tagged-values>
+        <tagged-value id="tvdd04fb191e6042ce9f2598929d37d687" name="namespace" type="text" multiple="false" hidden="false" value="" />
+        <tagged-value id="tv305459df368248f0a95fde52babd5a04" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetCheckinInformationCommand" />
+        <tagged-value id="tva0605e40c21a4db9be6bdd1ff6284acf" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p9c9f1b6efbae47e39bce437369aefe65_446132824" />
+        <tagged-value id="tv50a2cc97834c456d8e34efe05143f909" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\Bassam.Alugili\OneDrive - Körber AG\Desktop\COS\NotificationService\src\NotificationAPI\Commands\Bitbucket\GetCheckinInformationCommand.cs" />
+        <tagged-value id="tv9322454f86af458ba1e39a5f29db3b68" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+        <tagged-value id="tv26317b2b1a9c432c9d32927b1db7d512" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="80" />
+        <tagged-value id="tv298511fb3221419e856c0c184ca957da" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="47" />
+        <tagged-value id="tvb1c23a82e5874e66a421238dd5472d13" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="130" />
+        <tagged-value id="tv17bf6e37576346028722d5b5e59e5ff1" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="07/10/2022 09:55:15" />
+      </tagged-values>
+      <style class="Flat Light Green" />
+    </item>
+    <item id="7e5ff2bac2ca4b6fae7dd83980b2f51b" cid="C008" type="class" name="JiraController" style-class="Flat Light Green" creation-date="07/10/2022 15:35:05" visibility="public">
+      <tagged-values>
+        <tagged-value id="tv44017869f8b849448514e246e28999a2" name="namespace" type="text" multiple="false" hidden="false" value="" />
+        <tagged-value id="tvf8a1e69325df4ed7862a7d9a6ffc35ea" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="JiraController" />
+        <tagged-value id="tvd8f112047ab24551a0c8842496cd2caa" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="p9c9f1b6efbae47e39bce437369aefe65_446132824" />
+        <tagged-value id="tv21ce200d7bf649338a564b2f7e3e862e" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\Bassam.Alugili\OneDrive - Körber AG\Desktop\COS\NotificationService\src\NotificationAPI\Controllers\JiraController.cs" />
+        <tagged-value id="tvef1da2abc0b7449691de7bde4bfc215d" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+        <tagged-value id="tvb4ec55f5a9d04cfbb4d32c70c4eee1ef" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="284" />
+        <tagged-value id="tv3a4bdfcd1e0349eca6ed994e74d6072c" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="532" />
+        <tagged-value id="tv97976af9843b4a549df1c9e3e0a8ecbf" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="819" />
+        <tagged-value id="tv8a3b2081bb33485ba63602790ca2937a" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="07/10/2022 09:59:08" />
+      </tagged-values>
+      <owned-items>
+        <owned-item ref="bd0e880b6370407c9c663212008ddd60" />
+      </owned-items>
+      <style class="Flat Light Green" />
+      <attributes>
+        <attribute id="a0889818ecbf8429da3e6cceaee58bdc836" cid="PROP024" name="_logger" creation-date="07/10/2022 15:35:05" property-ref="76f76c348e474e6fbdd523d2e42a5933">
+          <style class="Flat Light Green" />
+        </attribute>
+      </attributes>
+      <operations>
+        <operation id="o38ca61e639ea4992a73c9b31c428361536" cid="OP008" name="GetCheckinInformation" creation-date="07/10/2022 15:35:05" type="Task&lt;IActionResult&gt;" type-id="Task&lt;IActionResult&gt;" visibility="public">
+          <style class="Flat Light Green" />
+          <parameters>
+            <parameter id="p625c2bae42bd44dbb0c78199ee8ebb54" name="command" type="PostIssueCommand" type-id="Class:634cad7216994f06b5790fad639af79a">
+              <tagged-values>
+                <tagged-value id="tvb04fe89b037d49d497b8be07e50be092" name="Annotation" type="text" multiple="false" hidden="false" value="FromQuery" />
+              </tagged-values>
+            </parameter>
+            <parameter id="p8271161eda06459b924ee63df7426fe9" name="mediator" type="IMediator" type-id="IMediator">
+              <tagged-values>
+                <tagged-value id="tv60e97bdfa5304dcf85be13d23fd790af" name="Annotation" type="text" multiple="false" hidden="false" value="FromServices" />
+              </tagged-values>
+            </parameter>
+          </parameters>
+          <stereotypes>
+            <stereotype>async</stereotype>
+          </stereotypes>
+          <tagged-values>
+            <tagged-value id="tv7c45c5c3fe24403bb0dc5c58ea1d5df6" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="GetCheckinInformation" />
+            <tagged-value id="tv4b6c7b7d0f294ed8931ebac2e21677e2" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\Bassam.Alugili\OneDrive - Körber AG\Desktop\COS\NotificationService\src\NotificationAPI\Controllers\JiraController.cs" />
+            <tagged-value id="tv3e25928b04c9455f9fe6609736857455" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+            <tagged-value id="tv75cb5b4eee7241a3b30ff585182ebbcd" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="415" />
+            <tagged-value id="tv3493fa8a214c4c49879b033cf2fd5f28" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="291" />
+          </tagged-values>
+          <documentations>
+            <doc id="819362747c0d49309e2fff13450ce6cc">
+              <text>
+                <default>
+                  <style font-name="Verdana" font-size="12">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </default>
+                <styles>
+                  <style name="S1" font-name="Microsoft Sans Serif" font-size="8.25">
+                    <text>
+                      <solid-brush color="#FF000000" />
+                    </text>
+                  </style>
+                </styles>
+                <content>
+                  <paragraph>
+                    <style numbering-type="None">
+                      <numbering name="" multi-level="false">
+                        <numbering-level type="None" level="0" format="{0}." />
+                      </numbering>
+                    </style>
+                    <p s="S1">
+                      <t> todo
+</t>
+                    </p>
+                  </paragraph>
+                </content>
+              </text>
+            </doc>
+          </documentations>
+          <source-codes>
+            <source-code language="CSharp">
+               
+        IJiraIssuesManagement jiraIssuesManagement;
+        var result = await mediator.Send(command);
+        return Ok(result);
+    </source-code>
+          </source-codes>
+        </operation>
+        <operation id="oc8cf1fdd33f0415ca63187eb319ef03e46" cid="OP009" name="JiraController" creation-date="07/10/2022 15:35:05" type="" type-id="" visibility="public">
+          <style class="Flat Light Green" />
+          <parameters>
+            <parameter id="p03a86190ba174cfca72c7b4904ec4653" name="logger" type="ILogger&lt;BitBucketController&gt;" type-id="ILogger&lt;BitBucketController&gt;" />
+          </parameters>
+          <stereotypes>
+            <stereotype>create</stereotype>
+          </stereotypes>
+          <tagged-values>
+            <tagged-value id="tvf3c3f9b56882450192cf28d074c58f6d" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="JiraController" />
+            <tagged-value id="tv411a36a50c9e475c971f9ee7f400af6e" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\Bassam.Alugili\OneDrive - Körber AG\Desktop\COS\NotificationService\src\NotificationAPI\Controllers\JiraController.cs" />
+            <tagged-value id="tv947c65beb9bf451bae10896cd5eefafb" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="CSharp" />
+            <tagged-value id="tvabab95c4e95c48c397068535cdb397ee" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="714" />
+            <tagged-value id="tv6b07442c0686477194b96eb4f8104928" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="99" />
+          </tagged-values>
+        </operation>
+      </operations>
+    </item>
+    <item id="ee59fbc49ee647fc89a487e1fd905c74" cid="GROUP087" type="group" name="Group" style-class="" creator="" creation-date="07/10/2022 15:54:22" />
+    <item id="5c2f88946ca5404b985a4f5eb388035d" cid="PROP017" type="property" name="jiraIssuesManagement" style-class="" creation-date="07/10/2022 16:50:38" visibility="private">
+      <feature />
+      <structural-feature type="" type-id="" />
+      <property />
+    </item>
+    <item id="3e7c3a8846d14f1db8955f3e83f020ed" cid="PROP018" type="property" name="Id" style-class="" creation-date="07/10/2022 16:50:38" visibility="private">
+      <feature />
+      <structural-feature type="" type-id="" />
+      <property />
+    </item>
+  </items>
+  <models>
+    <model id="p9c9f1b6efbae47e39bce437369aefe65_446132824" name="Model1" namespace="" order-index="1" expanded="true">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>07/10/2022 15:32:41</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items>
+        <item id="d749ab1701fa491a880053013ba73ddb" cid="PKG001" type="package" name="" style-class="" creator="" creation-date="07/10/2022 15:35:05" visibility="undefined">
+          <tagged-values>
+            <tagged-value id="tv3e4c6095a94c46e1969eebbb81142200" name="namespace" type="text" multiple="false" hidden="false" value="" />
+            <tagged-value id="tv5d226dfe0d494f2aae25fa7f07f7ec2f" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+          </tagged-values>
+        </item>
+      </abstract-items>
+      <sub-models>
+        <model id="p083f21f4d9e4456cb320e71d4f4ac016_640716859" name="" namespace="" order-index="2" expanded="true">
+          <meta>
+            <authors>
+              <author> </author>
+            </authors>
+            <description />
+            <creation-date>07/10/2022 15:35:05</creation-date>
+            <change-date>01/01/0001 00:00:00</change-date>
+            <revision-count>0</revision-count>
+            <version />
+          </meta>
+          <tagged-values>
+            <tagged-value id="tv3ae30056418e484a863a621d38daf913" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+          </tagged-values>
+          <abstract-items />
+          <sub-models />
+          <diagram type="uml-class" id="p9c8efcb9a9ae43a3986d132e4f390052_213336775" name="" order-index="1" expanded="true" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" namespace="" view-location="162,49" zoom="0.5792857">
+            <style>
+              <background-color index="1" color="#FFFFFFFF" />
+              <background-color index="2" color="#FFFFFFFF" />
+              <background-type type="vertical-linear" />
+            </style>
+            <meta>
+              <authors>
+                <author> </author>
+              </authors>
+              <description />
+              <creation-date>07/10/2022 15:35:05</creation-date>
+              <change-date>07/10/2022 16:47:24</change-date>
+              <revision-count>0</revision-count>
+              <version />
+            </meta>
+            <tagged-values>
+              <tagged-value id="tv4d6a6cc9d31849beb42d6dd001fdaf0b" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+            </tagged-values>
+            <abstract-items>
+              <item id="7fd22b09717d4a5b835cc06a6c5f4608" cid="REL009" type="relationship" name="Uses" style-class="" change-tracking-state="added" creator="" creation-date="07/10/2022 16:47:24" from="c014ea24ecc743f599530d1394d0f845" to="3db04056c80d4570beb83ac4585639ea" visibility="package">
+                <relation from="c014ea24ecc743f599530d1394d0f845" to="3db04056c80d4570beb83ac4585639ea" derived="false">
+                  <start-role id="umlar-554e5e18-421a-4047-803e-91bc0968d53c" name="" navigability="" association-type="association" visibility="private" />
+                  <end-role id="umlar-a0228251-907e-40fb-9d53-df12f8a305bc" name="" navigability="yes" association-type="association" visibility="private" />
+                </relation>
+              </item>
+              <item id="f3bd3d7b5d3e4eefb0de42690137547f" cid="REL006" type="relationship" name="" style-class="" change-tracking-state="added" creator="" creation-date="07/10/2022 16:40:35" from="ee59fbc49ee647fc89a487e1fd905c74" to="3db04056c80d4570beb83ac4585639ea" visibility="package">
+                <relation from="ee59fbc49ee647fc89a487e1fd905c74" to="3db04056c80d4570beb83ac4585639ea" derived="false">
+                  <start-role id="umlar-d8a693ee-9501-4648-8149-ff5015eb4682" name="" navigability="" association-type="association" visibility="private" />
+                  <end-role id="umlar-938a05f9-7d8d-4e61-9c89-30b91c0643aa" name="" navigability="yes" association-type="association" visibility="private" />
+                </relation>
+              </item>
+              <item id="fe1c6c75517649d6b32e4c6eae06ad96" cid="REL007" type="relationship" name="Uses" style-class="" change-tracking-state="added" creator="" creation-date="07/10/2022 16:44:33" from="c014ea24ecc743f599530d1394d0f845" to="ee59fbc49ee647fc89a487e1fd905c74" visibility="package">
+                <relation from="c014ea24ecc743f599530d1394d0f845" to="ee59fbc49ee647fc89a487e1fd905c74" derived="false">
+                  <start-role id="umlar-91c88ee8-1b73-44ac-ae2e-e33be4d3883c" name="" navigability="" association-type="association" visibility="private" />
+                  <end-role id="umlar-098fdd80-caba-43b4-9c1f-8daa5a4f246c" name="" navigability="yes" association-type="association" visibility="private" />
+                </relation>
+              </item>
+              <item id="dia2af38dda5d84df9880b191eaaf305c64315" cid="ELEM002" type="conditional-node" name="Application" style-class="" change-tracking-state="added" creator="" creation-date="07/10/2022 15:50:26" visibility="undefined">
+                <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF555555" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF555555" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="horizontal-linear" colors="#FFFFFFFF,#FFFFFFFF" />
+                  <border color="#FF555555" width="2" dash-style="Solid" />
+                  <label-connector color="#80000000" width="1" dash-style="Dash" />
+                  <alternate-styles>
+                    <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                      <text-style type="name" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                      <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                      <text-style type="text" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                      <text-style type="tagged-value" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                      <text-style type="stereotype" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                      <background type="solid" colors="#FF203D85,#FF203D85" />
+                      <border color="#FF203D85" width="2" dash-style="Solid" />
+                      <label-connector color="#80000000" width="1" dash-style="Dash" />
+                    </alternate-style>
+                  </alternate-styles>
+                </style>
+                <action locally-reentrant="false" />
+                <structured-activity-node />
+                <conditional-node assured="false" determinate="false" />
+              </item>
+              <item id="6f31afb2c2344e4fb3a36d4ddd862b97" cid="Infrastructure_01" type="conditional-node" name="Infrastructure" style-class="" change-tracking-state="added" creator="" creation-date="07/10/2022 15:50:26" visibility="undefined">
+                <owned-items>
+                  <owned-item ref="db6ac4d8bce54d02824b91f7345fa0f9" />
+                  <owned-item ref="4d006d2a6544482fab20c231b4875755" />
+                </owned-items>
+                <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF555555" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF555555" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="horizontal-linear" colors="#FFFFFFFF,#FFFFFFFF" />
+                  <border color="#FF555555" width="2" dash-style="Solid" />
+                  <label-connector color="#80000000" width="1" dash-style="Dash" />
+                  <alternate-styles>
+                    <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                      <text-style type="name" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                      <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                      <text-style type="text" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                      <text-style type="tagged-value" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                      <text-style type="stereotype" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                      <background type="solid" colors="#FF203D85,#FF203D85" />
+                      <border color="#FF203D85" width="2" dash-style="Solid" />
+                      <label-connector color="#80000000" width="1" dash-style="Dash" />
+                    </alternate-style>
+                  </alternate-styles>
+                </style>
+                <action locally-reentrant="false" />
+                <structured-activity-node />
+                <conditional-node assured="false" determinate="false" />
+              </item>
+              <item id="fd3a83a5abce475ebec7e4fcaf2e55c1" cid="REL008" type="relationship" name="Uses" style-class="" change-tracking-state="added" creator="" creation-date="07/10/2022 16:44:53" from="c014ea24ecc743f599530d1394d0f845" to="53eb585077a1409594f4f961fd0cf052" visibility="package">
+                <relation from="c014ea24ecc743f599530d1394d0f845" to="53eb585077a1409594f4f961fd0cf052" derived="false">
+                  <start-role id="umlar-5435c48c-b0e3-4b31-b04c-023f623386cb" name="" navigability="" association-type="association" visibility="private" />
+                  <end-role id="umlar-07880f4f-d6c3-4024-88a8-d9b9a8cffb72" name="" navigability="yes" association-type="association" visibility="private" />
+                </relation>
+              </item>
+              <item id="db6ac4d8bce54d02824b91f7345fa0f9" cid="PROP012" type="property" name="NewAttribute1" style-class="" owner="6f31afb2c2344e4fb3a36d4ddd862b97" creator="" creation-date="07/10/2022 15:51:09" visibility="private">
+                <feature />
+                <structural-feature type="" type-id="" />
+                <property />
+              </item>
+              <item id="diad0acab06c5348f4aebfb13f27b86ae92259" cid="GROUP099" type="group" name="Group" style-class="" creator="" creation-date="07/10/2022 15:54:22" />
+              <item id="dife700cc04dc9457593c0ea8d6e0653989526" cid="ELEM003" type="conditional-node" name="Domain" style-class="" change-tracking-state="added" creator="" creation-date="07/10/2022 15:50:26" visibility="undefined">
+                <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF555555" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF555555" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF555555" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="horizontal-linear" colors="#FFFFFFFF,#FFFFFFFF" />
+                  <border color="#FF555555" width="2" dash-style="Solid" />
+                  <label-connector color="#80000000" width="1" dash-style="Dash" />
+                  <alternate-styles>
+                    <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                      <text-style type="name" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                      <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                      <text-style type="text" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                      <text-style type="tagged-value" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                      <text-style type="stereotype" use-defaults="false" color="#FFE9E9E9" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                      <background type="solid" colors="#FF203D85,#FF203D85" />
+                      <border color="#FF203D85" width="2" dash-style="Solid" />
+                      <label-connector color="#80000000" width="1" dash-style="Dash" />
+                    </alternate-style>
+                  </alternate-styles>
+                </style>
+                <action locally-reentrant="false" />
+                <structured-activity-node />
+                <conditional-node assured="false" determinate="false" />
+              </item>
+              <item id="6a0b3203bf1945ec843eb012dfd8a03c" cid="REL003" type="relationship" name="Uses" style-class="" change-tracking-state="added" creator="" creation-date="07/10/2022 16:39:38" from="ee59fbc49ee647fc89a487e1fd905c74" to="53eb585077a1409594f4f961fd0cf052" visibility="package">
+                <relation from="ee59fbc49ee647fc89a487e1fd905c74" to="53eb585077a1409594f4f961fd0cf052" derived="false">
+                  <start-role id="umlar-1834d9dc-513d-40a8-8660-eb8f4b56f975" name="" navigability="" association-type="association" visibility="private" />
+                  <end-role id="umlar-5660c347-5eb3-4725-8504-f00bed14107d" name="" navigability="yes" association-type="association" visibility="private" />
+                </relation>
+              </item>
+              <item id="c50687ee72b74f34b87766bb4c9851ff" cid="REL001" type="relationship" name="Uses" style-class="" change-tracking-state="added" creator="" creation-date="07/10/2022 16:32:29" from="3db04056c80d4570beb83ac4585639ea" to="53eb585077a1409594f4f961fd0cf052" visibility="package">
+                <relation from="3db04056c80d4570beb83ac4585639ea" to="53eb585077a1409594f4f961fd0cf052" derived="false">
+                  <start-role id="umlar-55639ef1-23c0-4258-b3cc-2c89d22a7074" name="" navigability="" association-type="association" visibility="private" />
+                  <end-role id="umlar-28f60884-1569-4def-b934-9b3213100a4e" name="" navigability="yes" association-type="association" visibility="private" />
+                </relation>
+              </item>
+              <item id="4d006d2a6544482fab20c231b4875755" cid="PROP013" type="property" name="NewAttribute2" style-class="" owner="6f31afb2c2344e4fb3a36d4ddd862b97" creator="" creation-date="07/10/2022 15:51:10" visibility="private">
+                <feature />
+                <structural-feature type="" type-id="" />
+                <property />
+              </item>
+            </abstract-items>
+            <layer id="ae9c826c59104187aafc2c981d4731c7" name="Default" visible="true" enabled="true" locked="false">
+              <item id="ee59fbc49ee647fc89a487e1fd905c74" iid="c30a8ab106404888a98846c39623568a" creation-date="07/10/2022 15:54:22" order-index="17" type="group">
+                <layout ax="1928.5" ay="951.5" awidth="573" aheight="242" x="1928.5" y="951.5" width="140" height="160" />
+                <group-items>
+                  <item id="6f31afb2c2344e4fb3a36d4ddd862b97" iid="673c08070a084e93b916a05ea9449215" collapsed="true" show-fields="false" creation-date="07/10/2022 15:50:26" order-index="16" type="entity">
+                    <layout ax="1928.5" ay="951.5" awidth="573" aheight="242" x="1928.5" y="951.5" width="573" height="242" expanded="0,0,0,0" collapsed="1913.5,958.5,573,242" rotation-center="-228,-161" />
+                  </item>
+                  <item id="b9662d878b464911ae32ff67d4838313" iid="bfa0651ae6c14561afa83c89863158e0" creation-date="07/10/2022 15:35:05" order-index="3" type="entity">
+                    <layout ax="2025.5" ay="996.5" awidth="355" aheight="152" x="2025.5" y="996.5" width="355" height="152" />
+                    <classifier />
+                    <class />
+                  </item>
+                </group-items>
+              </item>
+              <item id="3db04056c80d4570beb83ac4585639ea" iid="1016324b8ca44218a033fa200bb54d05" creation-date="07/10/2022 16:00:58" order-index="18" type="group">
+                <layout ax="1547.5" ay="132.5" awidth="573" aheight="242" x="1547.5" y="132.5" width="140" height="242" />
+                <group-items>
+                  <item id="dife700cc04dc9457593c0ea8d6e0653989526" iid="54233a15ca18448390ff4eea5dba13fc" collapsed="true" show-fields="false" creation-date="07/10/2022 15:50:26" order-index="16" type="entity">
+                    <layout ax="1547.5" ay="132.5" awidth="573" aheight="242" x="1547.5" y="132.5" width="573" height="242" expanded="0,0,0,0" collapsed="1551.5,429.5,573,242" rotation-center="-228,-161" />
+                  </item>
+                  <item id="785cb6d943d54cf8815c19a732ad96f0" iid="583950ebbaf84b6280271b1c61ed525c" creation-date="07/10/2022 15:35:05" order-index="13" type="entity">
+                    <layout ax="1659" ay="176" awidth="350" aheight="173" x="1659" y="176" width="350" height="173" />
+                    <classifier />
+                    <class />
+                  </item>
+                </group-items>
+              </item>
+              <item id="53eb585077a1409594f4f961fd0cf052" iid="1506bf3e1ef94387a6f9ce4b397d0647" creation-date="07/10/2022 16:02:59" order-index="19" type="group">
+                <layout ax="442.5" ay="-28" awidth="817" aheight="511" x="442.5" y="-28" width="140" height="160" />
+                <group-items>
+                  <item id="dia2af38dda5d84df9880b191eaaf305c64315" iid="e3e0d4fa3e8e4736aaebf34e442d0349" collapsed="true" show-fields="false" creation-date="07/10/2022 15:50:26" order-index="16" type="entity">
+                    <layout ax="442.5" ay="-28" awidth="817" aheight="511" x="442.5" y="-28" width="817" height="511" expanded="0,0,0,0" collapsed="525.5,-28,817,511" rotation-center="-553,-295.5" />
+                  </item>
+                  <item id="ac89d7ab110944e28e4925ea4e08b0af" iid="4e6ea6efc9674caf8343381de43016d5" creation-date="07/10/2022 15:35:05" order-index="1" type="entity">
+                    <layout ax="492.5" ay="52" awidth="358" aheight="204" x="492.5" y="52" width="358" height="204" />
+                    <classifier />
+                    <class />
+                  </item>
+                  <item id="f8db724ac572489b93d43b3000b8df4b" iid="75ce37cd1ff645d5abb98126faec9efc" creation-date="07/10/2022 15:35:05" order-index="10" type="entity">
+                    <layout ax="905.5" ay="52" awidth="309" aheight="96" x="905.5" y="52" width="309" height="96" />
+                    <classifier />
+                    <class />
+                  </item>
+                  <item id="a593dae87c3849d3bb598f93e9581e38" iid="8a0ecb8defd541cbb69daecdbba14cf2" creation-date="07/10/2022 15:35:05" order-index="11" type="entity">
+                    <layout ax="492.5" ay="336" awidth="324" aheight="113" x="492.5" y="336" width="324" height="113" />
+                    <classifier />
+                    <class />
+                  </item>
+                </group-items>
+              </item>
+              <item id="c014ea24ecc743f599530d1394d0f845" iid="e26111034b03428a927e87fb67772392" creation-date="07/10/2022 16:30:12" order-index="20" type="group">
+                <layout ax="177.5" ay="668.5" awidth="1397" aheight="730" x="177.5" y="668.5" width="140" height="160" />
+                <group-items>
+                  <item id="di7b7603b406fe4bbfb634907752dbf8d62259" iid="101f379caac34131be50d8781807c36d" collapsed="true" show-fields="false" creation-date="07/10/2022 15:50:26" order-index="16" type="entity">
+                    <layout ax="177.5" ay="668.5" awidth="1397" aheight="730" x="177.5" y="668.5" width="1397" height="730" expanded="3.5,-15,1277,618" collapsed="-538.5,207.5,1397,730" rotation-center="-580,-405" />
+                  </item>
+                  <item id="3f6856c86ee34aac83a97ac9419dc201" iid="31175eb159b640beb7614b585fbd0a6c" creation-date="07/10/2022 15:35:05" order-index="0" type="entity">
+                    <layout ax="1242" ay="980" awidth="260" aheight="41" x="1242" y="980" width="260" height="41" />
+                    <classifier />
+                    <class />
+                  </item>
+                  <item id="94dce622efd44891a5889f123924ee1c" iid="08c181c693624a0f9e8f43db423f33f7" creation-date="07/10/2022 15:35:05" order-index="2" type="relation">
+                    <layout line-style="straight" lock-start-point="true" lock-to-fields="false" auto-path="" x1="1017" y1="1064" x2="1242" y2="1064" start-border-pos="0.443722943722944" end-border-pos="0.875" start-local-pos="179" name-position="0,20">
+                      <points>
+                        <point x="1017" y="1064" />
+                        <point x="1242" y="1064" />
+                      </points>
+                    </layout>
+                    <relation from="19aa553617674d5492fcaba92878c1c9" from-iid="412ce6730c834b3fa169e5ebed46ee8e" to="b06ce997394d4da797df074459da3ef6" to-iid="7aff729032ea4060a5bedfc8dbfa85de" />
+                  </item>
+                  <item id="7e5ff2bac2ca4b6fae7dd83980b2f51b" iid="3a8d0c086ed0454488b1e1518fc0440b" creation-date="07/10/2022 15:35:05" order-index="4" type="entity">
+                    <layout ax="200" ay="1153" awidth="342" aheight="174" x="200" y="1153" width="342" height="174" rotation-center="0,-52.5" />
+                    <classifier />
+                    <class />
+                  </item>
+                  <item id="47527f70c56f47ac82fe09e4cfda9bb2" iid="97bb7640daf64b6e9ff2cc04edd41065" creation-date="07/10/2022 15:35:05" order-index="5" type="entity">
+                    <layout ax="207" ay="748" awidth="328" aheight="100" x="207" y="748" width="328" height="100" rotation-center="0,11" />
+                    <classifier />
+                    <class />
+                  </item>
+                  <item id="19aa553617674d5492fcaba92878c1c9" iid="412ce6730c834b3fa169e5ebed46ee8e" creation-date="07/10/2022 15:35:05" order-index="6" type="entity">
+                    <layout ax="197" ay="885" awidth="820" aheight="231" x="197" y="885" width="820" height="231" rotation-center="-232,-59.5" />
+                    <classifier />
+                    <class />
+                  </item>
+                  <item id="634cad7216994f06b5790fad639af79a" iid="35fe1248aefb4f839594c186dfedebc6" creation-date="07/10/2022 15:35:05" order-index="7" type="entity">
+                    <layout ax="1065.5" ay="1257" awidth="158" aheight="41" x="1065.5" y="1257" width="158" height="41" rotation-center="0,-32" />
+                    <classifier />
+                    <class />
+                  </item>
+                  <item id="12215ce8e0cf41789e64ca7f8a5cde1f" iid="15273e1a96bc4487a3901711d0b9d662" creation-date="07/10/2022 15:35:05" order-index="8" type="entity">
+                    <layout ax="1242" ay="864.5" awidth="201" aheight="41" x="1242" y="864.5" width="201" height="41" />
+                    <classifier />
+                    <class />
+                  </item>
+                  <item id="ce1d74cb276a42ed94d95218b24a02c0" iid="7fe4f716efae4593a1b40a0c8b6ace16" creation-date="07/10/2022 15:35:05" order-index="9" type="relation">
+                    <layout line-style="straight" lock-start-point="true" lock-to-fields="false" auto-path="" x1="1017" y1="1001" x2="1242" y2="1000" start-border-pos="0.375541125541126" end-border-pos="0.875815786966463" start-local-pos="116" name-position="0,20">
+                      <points>
+                        <point x="1017" y="1001" />
+                        <point x="1242" y="1000" />
+                      </points>
+                    </layout>
+                    <relation to="3f6856c86ee34aac83a97ac9419dc201" to-iid="31175eb159b640beb7614b585fbd0a6c" />
+                  </item>
+                  <item id="aa1942793bfe493bbd0b13bdae90bf21" iid="01e8e3b0f031472fbf9ee5375744b8f0" creation-date="07/10/2022 15:35:05" order-index="12" type="relation">
+                    <layout line-style="straight" end-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="542" y1="1282" x2="1066" y2="1277" start-border-pos="0.435344827586207" end-border-pos="0.878048780487805" start-local-pos="98.5" end-local-pos="20" name-position="0,20">
+                      <points>
+                        <point x="542" y="1282" />
+                        <point x="1066" y="1277" />
+                      </points>
+                    </layout>
+                    <relation from="7e5ff2bac2ca4b6fae7dd83980b2f51b" from-iid="3a8d0c086ed0454488b1e1518fc0440b" to="634cad7216994f06b5790fad639af79a" to-iid="35fe1248aefb4f839594c186dfedebc6" />
+                  </item>
+                  <item id="b06ce997394d4da797df074459da3ef6" iid="7aff729032ea4060a5bedfc8dbfa85de" creation-date="07/10/2022 15:35:05" order-index="14" type="entity">
+                    <layout ax="1242" ay="1043.5" awidth="260" aheight="41" x="1242" y="1043.5" width="260" height="41" />
+                    <classifier />
+                    <class />
+                  </item>
+                  <item id="aad94e7e1efe419cb6b6c7757dfd30b6" iid="e9a7207b35a449f4b112e1511df96d01" creation-date="07/10/2022 15:35:05" order-index="15" type="relation">
+                    <layout line-style="straight" start-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1017" y1="885" x2="1242" y2="886" start-border-pos="0.25" end-border-pos="0.871951219512195" start-local-pos="0" end-local-pos="21" name-position="0,20">
+                      <points>
+                        <point x="1017" y="885" />
+                        <point x="1242" y="886" />
+                      </points>
+                    </layout>
+                    <relation from="19aa553617674d5492fcaba92878c1c9" from-iid="412ce6730c834b3fa169e5ebed46ee8e" to="12215ce8e0cf41789e64ca7f8a5cde1f" to-iid="15273e1a96bc4487a3901711d0b9d662" />
+                  </item>
+                </group-items>
+              </item>
+              <item id="c50687ee72b74f34b87766bb4c9851ff" iid="6f1d86ec3c364d6e99e0a092fc2ea62f" creation-date="07/10/2022 16:32:29" order-index="21" type="relation">
+                <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-end-point="true" lock-to-fields="true" auto-path="" x1="1548" y1="254" x2="1260" y2="254" start-border-pos="0.87448347107438" end-border-pos="0.387720156555773" end-local-pos="281" name-position="0,20">
+                  <points>
+                    <point x="1548" y="254" />
+                    <point x="1367" y="253.5" />
+                    <point x="1260" y="254" />
+                  </points>
+                </layout>
+                <relation from="3db04056c80d4570beb83ac4585639ea" from-iid="1016324b8ca44218a033fa200bb54d05" to="53eb585077a1409594f4f961fd0cf052" to-iid="1506bf3e1ef94387a6f9ce4b397d0647" to-field="f8db724ac572489b93d43b3000b8df4b_interface" />
+              </item>
+              <item id="6a0b3203bf1945ec843eb012dfd8a03c" iid="9bbf6e2798774c73a465e2be32d845e5" creation-date="07/10/2022 16:39:38" order-index="22" type="relation">
+                <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="2214" y1="952" x2="1260" y2="1" start-border-pos="0.12456369982548" end-border-pos="0.264187866927593" start-local-pos="285.5" end-local-pos="394" name-position="0,20">
+                  <points>
+                    <point x="2214" y="952" />
+                    <point x="1260" y="1" />
+                  </points>
+                </layout>
+                <relation from="ee59fbc49ee647fc89a487e1fd905c74" from-iid="c30a8ab106404888a98846c39623568a" to="53eb585077a1409594f4f961fd0cf052" to-iid="1506bf3e1ef94387a6f9ce4b397d0647" />
+              </item>
+              <item id="f3bd3d7b5d3e4eefb0de42690137547f" iid="bdcb244702d34ff38441b16dfb58a874" creation-date="07/10/2022 16:40:35" order-index="24" type="relation">
+                <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="21.78597,-18.848" end-multiplicity-position="25,15" line-style="straight" start-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="2104" y1="952" x2="2106" y2="374" start-border-pos="0.0765706806282723" end-border-pos="0.506326352530541" start-local-pos="175.5" end-local-pos="558.5" name-position="0,20">
+                  <points>
+                    <point x="2104" y="952" />
+                    <point x="2106" y="374" />
+                  </points>
+                </layout>
+                <relation from="ee59fbc49ee647fc89a487e1fd905c74" from-iid="c30a8ab106404888a98846c39623568a" to="3db04056c80d4570beb83ac4585639ea" to-iid="1016324b8ca44218a033fa200bb54d05" />
+              </item>
+              <item id="fe1c6c75517649d6b32e4c6eae06ad96" iid="3b7dc6b334064e6b9deaa81c4b7700c3" creation-date="07/10/2022 16:44:33" order-index="25" type="relation">
+                <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="straight" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1574" y1="1073" x2="1928" y2="1073" start-border-pos="0.388356164383562" end-border-pos="0.87448347107438" start-local-pos="403.5" end-local-pos="121.5" name-position="0,20">
+                  <points>
+                    <point x="1574" y="1073" />
+                    <point x="1928" y="1073" />
+                  </points>
+                </layout>
+                <relation from="c014ea24ecc743f599530d1394d0f845" from-iid="e26111034b03428a927e87fb67772392" to="ee59fbc49ee647fc89a487e1fd905c74" to-iid="c30a8ab106404888a98846c39623568a" />
+              </item>
+              <item id="fd3a83a5abce475ebec7e4fcaf2e55c1" iid="83b348c9a4be4f7a98a56dae0177722a" creation-date="07/10/2022 16:44:53" order-index="26" type="relation">
+                <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="straight" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="851" y1="668" x2="851" y2="483" start-border-pos="0.120526127415891" end-border-pos="0.625" start-local-pos="673.5" end-local-pos="408.5" name-position="0,20">
+                  <points>
+                    <point x="851" y="668" />
+                    <point x="851" y="483" />
+                  </points>
+                </layout>
+                <relation from="c014ea24ecc743f599530d1394d0f845" from-iid="e26111034b03428a927e87fb67772392" to="53eb585077a1409594f4f961fd0cf052" to-iid="1506bf3e1ef94387a6f9ce4b397d0647" />
+              </item>
+              <item id="7fd22b09717d4a5b835cc06a6c5f4608" iid="248b3a725c184e63a3a2531af2d1750e" creation-date="07/10/2022 16:47:24" order-index="27" type="relation">
+                <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1574" y1="668" x2="1845" y2="374" start-border-pos="0.249910522548318" end-border-pos="0.620200698080279" start-local-pos="1396.5" end-local-pos="320.5" name-position="0,20">
+                  <points>
+                    <point x="1574" y="668" />
+                    <point x="1845" y="374" />
+                  </points>
+                </layout>
+                <relation from="c014ea24ecc743f599530d1394d0f845" from-iid="e26111034b03428a927e87fb67772392" to="3db04056c80d4570beb83ac4585639ea" to-iid="1016324b8ca44218a033fa200bb54d05" />
+              </item>
+            </layer>
+            <layer id="1292df0a4cb34bb88954b50a03a6632c" name="Layer 2" visible="true" enabled="true" locked="false" />
+          </diagram>
+        </model>
+      </sub-models>
+      <diagram type="uml-package" id="p0e37e46dc84b4cb4907cbc7126d6b803_397207980" name="Packages" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" namespace="">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="vertical-linear" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>07/10/2022 15:35:05</creation-date>
+          <change-date>07/10/2022 15:35:05</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <tagged-values>
+          <tagged-value id="tv392cc07ad148485abffcf78e896c85dd" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+        </tagged-values>
+        <abstract-items />
+        <layer id="ac8cf10433be4e5db4e5dd32663a7fa0" name="Default" visible="true" enabled="true" locked="false">
+          <item id="d749ab1701fa491a880053013ba73ddb" iid="665e3de7c0684255832cdddd45a30310" creation-date="07/10/2022 15:35:05" order-index="0" type="entity">
+            <layout ax="0" ay="0" awidth="84" aheight="56" x="0" y="0" width="84" height="56" expanded="0,0,84,56" collapsed="0,0,0,0" />
+            <package name-in-body="false" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

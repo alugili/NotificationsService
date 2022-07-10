@@ -1,0 +1,18 @@
+@startuml SDK_Fix_Checkin_Dynamic_ViewNotificationRESTAPI
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Dynamic.puml
+
+title SDK Fix Checkin Dynamic View for the Notification Service
+interface  "NotificationAPIController" as NotificationAPIController
+interface  "SendingProcessor" as SendingProcessor
+interface  "SendingQueue" as SendingQueue
+interface  "Notfication" as Notfication
+interface  "DispatcherSerive" as DispatcherSerive
+interface  "JiraManager" as JiraManager
+
+NotificationAPIController --> SendingProcessor : preapre the notifications to be send
+SendingProcessor --> SendingQueue : add the notification to queue
+SendingQueue --> Notfication :   notification
+SendingQueue --> DispatcherSerive : Send the notification to Bitbucket
+DispatcherSerive --> JiraManager : Create an Jira issue when all projects are notified.
+
+@enduml

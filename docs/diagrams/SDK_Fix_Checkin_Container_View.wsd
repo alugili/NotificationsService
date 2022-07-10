@@ -1,0 +1,39 @@
+@startuml SDK_Fix_Checkin_ContainerView
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+
+LAYOUT_LEFT_RIGHT()
+LAYOUT_AS_SKETCH()
+
+title SDK Fix Check-in Container View
+
+' Users and roles
+Person(user_dev_sdk, "SDK Developers", "Developers who are devloping the main SDK")
+Person(user_dev_feature, "Feature Developers", "Developers who is using the main SDK")
+
+' Project/Code/CI/CD
+System_Boundary(bnd_code, "Code Management System"){
+  System_Ext(sys_codemanagement, "Code Management", "Bitbucket Web Server", "Allows to manage the source code")
+  System_Ext(sys_projectmanagement, "Projects Management", "Jira Web Server" ,"Allows to manage the projects")
+}
+
+' Cloud Services
+System_Boundary(bnd_notificationsservice, "Notifications Service"){
+  Container(sys_notificationservice, "Notifications Service" ,"C# 11 and ASP.NET", "Provides all the functionality to notfiy the feature developers via REST API" )
+}
+
+' Relations
+' users
+Rel(user_dev_sdk, sys_codemanagement, "Pull/Push the source code by using", "Web Browser/Tool")
+Rel(user_dev_sdk, sys_codemanagement, "Creates PR to review and merge SDK changes using","Web Browser")
+
+' Cloud Services
+Rel(sys_codemanagement, user_dev_feature, "Send the SDK changed notification to")
+Rel(sys_projectmanagement, user_dev_feature, "Send the project changed Jira issue to")
+
+Rel(sys_notificationservice, sys_codemanagement, "Subscribes the SDK changed events by using", "Webhook")
+Rel(sys_notificationservice, sys_codemanagement, "Inform the developers about the changes by using", "HTTPS, REST API, POST")
+
+Rel(sys_notificationservice, sys_projectmanagement, "Create an issue on the")
+
+@enduml

@@ -1,0 +1,32 @@
+@startuml SDK_Fix_Checkin_ComponenetView
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+LAYOUT_LEFT_RIGHT()
+LAYOUT_AS_SKETCH()
+
+title SDK Fix Checkin Componenet View Notification Service
+
+System_Boundary("bnd_code", "Code Management"){
+    System_Ext(sys_codemanagement, "Code Management", "Bitbucket- Allows to manage the source code", "Bitbucket")
+    System_Ext(sys_projectmanagement, "Projects Management", "Jira - Allows to manage the projects")
+}
+
+' Cloud Services
+System_Boundary("bnd_notificationservice", "Notification Service"){
+    Component(notificationapi, "Notfication REST API", "ASP.NET Core Controller", "Provides a facde to all Rest API Calls ")
+    Component(domain, "Domain", "Plain Old CLR Objects", "Contains the Domains entities or POCOs.")
+    Component(infrastructure, "Infrastructure", "Domain Infrastructure","Provides the implementation of the use case or business logic.")
+    Component(application, "Application", "C#", "Provides the interfaces and the uses cases to the bussines requieremnts")
+}
+
+' Uses and relations
+Rel(notificationapi, domain , "uses")
+Rel(notificationapi, application , "uses")
+Rel(notificationapi, infrastructure , "uses")
+Rel(application, domain , "uses")
+Rel_U(infrastructure, application , "uses")
+Rel(sys_codemanagement, notificationapi, "Make API Call to [JSON/HTTP/HTTPS]")
+Rel(notificationapi, sys_codemanagement, "Make API Call to [JSON/HTTP/HTTPS]")
+Rel(notificationapi, sys_projectmanagement, "Make API Call to [JSON/HTTP/HTTPS]")
+
+@enduml
