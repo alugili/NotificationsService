@@ -4,11 +4,11 @@
 Todo: need more discussion!
 
 ## Requirements </br>
-  Prototype: Visual Studio 2022 / ASP.NET CORE / C# 10 </br>
-  Architecture: PlantUML with Visual Studio Code : More info https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml
+&nbsp;&nbsp;&nbsp;&nbsp;Prototype: Visual Studio 2022 / ASP.NET CORE / C# 10 </br>
+&nbsp;&nbsp;&nbsp;&nbsp;Architecture: PlantUML with Visual Studio Code : More info https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml
  
-   Other tools:
-   https://www.docker.com/products/docker-desktop/
+&nbsp;&nbsp;&nbsp;&nbsp;Other tools:
+&nbsp;&nbsp;&nbsp;&nbsp;https://www.docker.com/products/docker-desktop/
 
 ## NotificationsService project
 
@@ -20,8 +20,8 @@ Open the wsd files with VSCode and use the PlantUML extension to generate the Di
 
 ## Related Resources</br>
 This project is using the Rest API interfaces for: </br>
-   **Bitbucket:** https://developer.atlassian.com/server/bitbucket/rest/v802/intro/ </br>
-   **Jira:** https://developer.atlassian.com/server/jira/platform/rest-apis/ </br>
+&nbsp;&nbsp;&nbsp;&nbsp;**Bitbucket:** https://developer.atlassian.com/server/bitbucket/rest/v802/intro/ </br>
+ &nbsp;&nbsp;&nbsp;&nbsp;**Jira:** https://developer.atlassian.com/server/jira/platform/rest-apis/ </br>
 
 ### Project structure</br>
 Based on Clean Architecture of Uncle Bob. 
