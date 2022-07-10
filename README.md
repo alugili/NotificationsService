@@ -1,4 +1,4 @@
-# Notifications Service Code Management System Extension
+# Notifications Service for the Code Management System - an Extension for the SDK Fix Check-in
 
 ## Motiviation 
 Todo: need more discussion!
@@ -59,7 +59,7 @@ C:.
 **Context Diagram**
 ![alt text](https://github.com/alugili/NotificationsService/blob/main/docs/diagrams/SDK_Fix_Checkin_ContextView.png?raw=true)
 
-**ContainersDiagram**
+**Containers Diagram**
 ![alt text](https://github.com/alugili/NotificationsService/blob/main/docs/diagrams/SDK_Fix_Checkin_ContainerView.png?raw=true)
 
 **Components Diagram**
@@ -71,5 +71,3 @@ C:.
 
 *Auto Generated Dependency Diagram*</br>
 ![alt text](https://github.com/alugili/NotificationsService/blob/main/docs/diagrams/Type%20Dependencies%20Diagram%20for%20BitBucketController.png?raw=true)
-
-
