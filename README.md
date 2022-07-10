@@ -18,6 +18,11 @@ Clone and Open the solution file "NotificationService.sln" with VS2022 and press
 ### How to open the architecture diagrams?</br>
 Open the wsd files with VSCode and use the PlantUML extension to generate the Diagrams view.
 
+## Related Resources</br>
+This project is using the Rest API interfaces for: </br>
+   **Bitbucket:** https://developer.atlassian.com/server/bitbucket/rest/v802/intro/ </br>
+   **Jira:** https://developer.atlassian.com/server/jira/platform/rest-apis/ </br>
+
 ### Project structure</br>
 Based on Clean Architecture of Uncle Bob. 
 
@@ -60,9 +65,11 @@ C:.
 **Components Diagram**
 ![alt text](https://github.com/alugili/NotificationsService/blob/main/docs/diagrams/SDK_Fix_Checkin_ComponenetView.png?raw=true)
 
-**Dynamic diagram**
-![alt text](https://github.com/alugili/NotificationsService/blob/main/docs/diagrams/ClassesDiagram_Underwork.png?raw=true)
+**Dynamic diagram**</br>
+*Auto Generated Class Diagrams*</br>
+![alt text](https://github.com/alugili/NotificationsService/blob/main/docs/diagrams/ClassesDiagram_Underwork.png?raw=true)</br>
 
-
+*Auto Generated Dependency Diagram*</br>
+![alt text](https://github.com/alugili/NotificationsService/blob/main/docs/diagrams/Type%20Dependencies%20Diagram%20for%20BitBucketController.png?raw=true)
 
 
