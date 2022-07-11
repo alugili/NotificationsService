@@ -3,6 +3,9 @@
 ## Motiviation 
 Todo: need more discussion!
 
+Solution 1- Microservices which is applied in this project
+Solution 2- Pipleline solution, which done by using Bash-shell and curl- build-in the Bitbucket Pipleline. Easy to integrate, but not flexible.
+
 ## Requirements </br>
 &nbsp;&nbsp;&nbsp;&nbsp;Prototype: Visual Studio 2022 / ASP.NET CORE / C# 10 </br>
 &nbsp;&nbsp;&nbsp;&nbsp;Architecture: PlantUML with Visual Studio Code : More info https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml
