@@ -1,10 +1,10 @@
 # Notifications Service for the Code Management System - an Extension for the SDK Fix Check-in
 
 ## Motiviation 
-Todo: need more discussion!
+Todo: need more discussion!</br>
 
-Solution 1- Microservices which is applied in this project
-Solution 2- Pipleline solution, which done by using Bash-shell and curl- build-in the Bitbucket Pipleline. Easy to integrate, but not flexible.
+Solution 1- Microservices which is applied in this project</br>
+Solution 2- Pipleline solution, which done by using Bash-shell and curl- build-in the Bitbucket Pipleline. Easy to integrate, but not flexible.</br>
 
 ## Requirements </br>
 &nbsp;&nbsp;&nbsp;&nbsp;Prototype: Visual Studio 2022 / ASP.NET CORE / C# 10 </br>
